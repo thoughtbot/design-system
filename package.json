@@ -1,0 +1,8 @@
+{
+  "name": "@thoughtbot/tbd-system",
+  "version": "0.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.5.1"
+  }
+}
