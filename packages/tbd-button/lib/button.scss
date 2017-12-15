@@ -2,9 +2,9 @@ $_tbd-button-background-color: #477dca !default;
 $_tbd-button-background-color-hover: darken($_tbd-button-background-color, 10%) !default;
 $_tbd-button-border: 0 !default;
 $_tbd-button-border-radius: 5px !default;
-$_tbd-button-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif !default;
+$_tbd-button-font-family: $tbd-font-sans-serif !default;
 $_tbd-button-font-size: 16px !default;
-$_tbd-button-font-weight: 700 !default;
+$_tbd-button-font-weight: $tbd-font-weight-bold !default;
 $_tbd-button-text-color: #fff !default;
 $_tbd-button-text-color-hover: #fff !default;
 
