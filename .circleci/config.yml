@@ -1,0 +1,43 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:9.1.0
+    working_directory: ~/tbd
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+      - run:
+          name: npm install
+          command: npm install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+  alpha:
+    docker:
+      - image: circleci/node:9.1.0
+    working_directory: ~/tbd
+    steps:
+      - checkout
+      - run:
+          name: npm install
+          command: npm install
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run:
+          name: Release PR Alpha
+          command: ./scripts/release_alpha
+
+workflows:
+  version: 2
+  build_and_alpha:
+    jobs:
+      - build
+      - alpha:
+          requires:
+            - build
