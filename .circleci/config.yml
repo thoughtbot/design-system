@@ -30,7 +30,7 @@ jobs:
           command: npm install
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - run:
-          name: Release PR Alpha
+          name: Release alpha packages for PR
           command: ./scripts/release_alpha
 
 workflows:
