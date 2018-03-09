@@ -22,7 +22,6 @@ $_tbds-button-text-color-hover: #fff !default;
   font-weight: $_tbds-button-font-weight;
   line-height: 1;
   padding: 0.75em 1.5em;
-  text-align: center;
   text-decoration: none;
   transition: background-color 200ms ease;
   user-select: none;
@@ -42,6 +41,12 @@ $_tbds-button-text-color-hover: #fff !default;
       background-color: $_tbds-button-background-color;
     }
   }
+}
+
+.tbds-button--full-width {
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
 .tbds-button__icon {
