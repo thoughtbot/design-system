@@ -43,3 +43,17 @@ $_tbds-button-text-color-hover: #fff !default;
     }
   }
 }
+
+.tbds-button__icon {
+  fill: currentColor;
+  height: 1em;
+  width: 1em;
+}
+
+.tbds-button__icon--text-to-left {
+  margin-left: 0.5em;
+}
+
+.tbds-button__icon--text-to-right {
+  margin-right: 0.5em;
+}
