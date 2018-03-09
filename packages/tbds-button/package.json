@@ -1,6 +1,6 @@
 {
   "name": "@thoughtbot/tbds-button",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "license": "MIT",
   "dependencies": {
     "@thoughtbot/tbds-support": "0.0.1"
