@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+if ! command -v ja > /dev/null; then
+  brew install jq
+fi
+
+npm install

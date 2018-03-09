@@ -2,6 +2,16 @@
 
 thoughtbot design system for thoughtbot websites.
 
+## Devleoper Setup
+
+`./bin/setup`
+
+## Releases
+
+Bump the package versions manually, then run:
+
+`npm run release`
+
 ## Installation for Ruby on Rails
 
 tbds is available through npm and requires Rails 5.1+. Yarn is used to support
