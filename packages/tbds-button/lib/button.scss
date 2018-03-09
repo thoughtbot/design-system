@@ -2,13 +2,13 @@ $_tbds-button-background-color: #477dca !default;
 $_tbds-button-background-color-hover: darken($_tbds-button-background-color, 10%) !default;
 $_tbds-button-border: 0 !default;
 $_tbds-button-border-radius: 5px !default;
-$_tbds-button-font-family: $tbd-font-sans-serif !default;
+$_tbds-button-font-family: $tbds-font-sans-serif !default;
 $_tbds-button-font-size: 16px !default;
-$_tbds-button-font-weight: $tbd-font-weight-bold !default;
+$_tbds-button-font-weight: $tbds-font-weight-bold !default;
 $_tbds-button-text-color: #fff !default;
 $_tbds-button-text-color-hover: #fff !default;
 
-.tbd-button {
+.tbds-button {
   appearance: none;
   background-color: $_tbds-button-background-color;
   border: $_tbds-button-border;
