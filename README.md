@@ -44,7 +44,7 @@ Heroku deployment.
 
 ## License
 
-thoughtbot/design-system is Copyright (c) 2017 thoughtbot, inc.
+thoughtbot/design-system is Copyright (c) 2018 thoughtbot, inc.
 It is free software, and may be redistributed
 under the terms specified in the [LICENSE] file.
 
