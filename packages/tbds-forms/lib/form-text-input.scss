@@ -1,0 +1,16 @@
+.tbds-form-text-input {
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  transition-duration: 200ms;
+  transition-property: border-color;
+  width: 100%;
+
+  &:focus {
+    border-color: #ed3e44;
+    outline: none;
+  }
+}
