@@ -1,0 +1,45 @@
+$_tbds-button-background-color: #477dca !default;
+$_tbds-button-background-color-hover: darken($_tbds-button-background-color, 10%) !default;
+$_tbds-button-border: 0 !default;
+$_tbds-button-border-radius: 5px !default;
+$_tbds-button-font-family: $tbd-font-sans-serif !default;
+$_tbds-button-font-size: 16px !default;
+$_tbds-button-font-weight: $tbd-font-weight-bold !default;
+$_tbds-button-text-color: #fff !default;
+$_tbds-button-text-color-hover: #fff !default;
+
+.tbd-button {
+  appearance: none;
+  background-color: $_tbds-button-background-color;
+  border: $_tbds-button-border;
+  border-radius: $_tbds-button-border-radius;
+  color: $_tbds-button-text-color;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $_tbds-button-font-family;
+  font-size: $_tbds-button-font-size;
+  -webkit-font-smoothing: antialiased;
+  font-weight: $_tbds-button-font-weight;
+  line-height: 1;
+  padding: 0.75em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 200ms ease;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: $_tbds-button-background-color-hover;
+    color: $_tbds-button-text-color-hover;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: $_tbds-button-background-color;
+    }
+  }
+}

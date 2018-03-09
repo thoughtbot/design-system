@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
       - image: circleci/node:9.1.0
-    working_directory: ~/tbd
+    working_directory: ~/design-system
     steps:
       - checkout
       - restore_cache:
@@ -22,7 +22,7 @@ jobs:
   alpha:
     docker:
       - image: circleci/node:9.1.0
-    working_directory: ~/tbd
+    working_directory: ~/design-system
     steps:
       - checkout
       - run:
