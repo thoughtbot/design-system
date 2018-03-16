@@ -1,0 +1,16 @@
+.tbds-form-input-button-unit {
+  display: flex;
+}
+
+.tbds-form-input-button-unit__input {
+  border-bottom-right-radius: 0;
+  border-right: none;
+  border-top-right-radius: 0;
+  flex: 1 1 auto;
+  margin: 0;
+}
+
+.tbds-form-input-button-unit__button {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
