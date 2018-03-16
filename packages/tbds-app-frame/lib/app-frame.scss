@@ -1,4 +1,4 @@
-.app-frame {
+.tbds-app-frame {
   align-items: stretch;
   display: flex;
   flex-direction: column;
@@ -6,19 +6,19 @@
   width: 100%;
 }
 
-.app-frame__header {
+.tbds-app-frame__header {
   flex-grow: 0;
 }
 
-.app-frame__body {
+.tbds-app-frame__body {
   flex-grow: 1;
 }
 
-.app-frame__footer {
+.tbds-app-frame__footer {
   flex-grow: 0;
 }
 
-.app-frame__body--vertical-middle {
+.tbds-app-frame__body--vertical-middle {
   align-items: center;
   display: flex;
   flex-direction: column;
