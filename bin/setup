@@ -6,3 +6,6 @@ if ! command -v ja > /dev/null; then
 fi
 
 npm install
+
+cd documentation
+npm install

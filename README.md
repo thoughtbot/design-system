@@ -6,6 +6,13 @@ thoughtbot design system for thoughtbot websites.
 
 `./bin/setup`
 
+## View Documentation Site Locally
+
+```
+cd documentation
+npm run server
+```
+
 ## Releases
 
 Bump the package versions manually, then run:
