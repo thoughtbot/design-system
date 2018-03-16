@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "license": "MIT",
   "dependencies": {
-    "@thoughtbot/tbds-support": "0.0.2"
+    "@thoughtbot/tbds-support": "0.0.3"
   }
 }
