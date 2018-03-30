@@ -3,9 +3,7 @@ import {spawn} from "child_process";
 import hugoBin from "hugo-bin";
 import gutil from "gulp-util";
 import flatten from "gulp-flatten";
-import postcss from "gulp-postcss";
-import cssImport from "postcss-import";
-import cssnext from "postcss-cssnext";
+import scss from "gulp-sass";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
@@ -21,15 +19,16 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["documentation", "css", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["documentation", "scss", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["scss", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
-// Compile CSS with PostCSS
-gulp.task("css", () => (
-  gulp.src("./src/css/*.css")
-    .pipe(postcss([cssImport({from: "./src/css/main.css"}), cssnext()]))
-    .pipe(gulp.dest("./dist/css"))
-    .pipe(browserSync.stream())
+// SCSS
+gulp.task('scss', () => (
+  gulp.src('./src/scss/**/*.scss')
+    .pipe(scss({
+      includePaths: ['node_modules']
+    }).on('error', scss.logError))
+    .pipe(gulp.dest('./site/static/css/'))
 ));
 
 // Collect design system markup examples
@@ -62,14 +61,14 @@ gulp.task('fonts', () => (
 ));
 
 // Development server with browsersync
-gulp.task("server", ["documentation", "hugo", "css", "js", "fonts"], () => {
+gulp.task("server", ["documentation", "hugo", "scss", "js", "fonts"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
     }
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.css", ["css"]);
+  gulp.watch("./src/scss/**/*.css", ["scss"]);
   gulp.watch("./src/fonts/**/*", ["fonts"]);
   gulp.watch("./site/**/*", ["hugo"]);
   gulp.watch("../packages/**/documentation/*", ["documentation"]);

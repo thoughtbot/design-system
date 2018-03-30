@@ -1,13 +1,18 @@
 {{ define "main" }}
-  <h2>
-    Components
-  </h2>
+  <h1>
+    thoughtbot deisgn system components list.
+  </h1>
   <ul>
     {{ range .Pages }}
       <li>
         <a href="{{.URL}}">
-          {{.Title}}
+          <h2>
+            {{.Title}}
+          </h2>
         </a>
+        <p>
+          {{.Content}}
+        </p>
       </li>
     {{ end }}
   </ul>

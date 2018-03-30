@@ -3,3 +3,4 @@ node_modules
 *.log
 documentation/dist/
 documentation/site/content/
+documentation/site/static/

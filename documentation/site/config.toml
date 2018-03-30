@@ -3,6 +3,7 @@ languageCode = "en-us"
 languageLang = "en"
 title = "tbds: thoughtbot Design System Documentation"
 theme = "tbds"
+staticDir = ["static"]
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
