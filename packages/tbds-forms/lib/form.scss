@@ -1,3 +1,7 @@
+.tbds-form__row + .tbds-form__row {
+  margin-top: 2rem;
+}
+
 .tbds-form__label {
   display: block;
   font-weight: $tbds-font-weight-bold;
