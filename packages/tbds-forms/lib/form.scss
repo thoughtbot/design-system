@@ -54,3 +54,25 @@
     outline: none;
   }
 }
+
+.tbds-form__choice {
+  align-items: baseline;
+  display: flex;
+}
+
+.tbds-form__choice + .tbds-form__choice {
+  margin-top: 1rem;
+}
+
+.tbds-form__choice--inline {
+  display: inline-flex;
+}
+
+.tbds-form__choice--inline + .tbds-form__choice--inline {
+  margin-left: 1rem;
+  margin-top: 0;
+}
+
+.tbds-form__choice-input {
+  margin-right: 0.75rem;
+}
