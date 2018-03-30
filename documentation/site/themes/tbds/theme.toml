@@ -1,0 +1,10 @@
+name = "thoughtbot Design System Theme"
+license = "MIT"
+description = "thoughtbot Design System Theme"
+tags = []
+features = []
+min_version = "0.0.1"
+
+[author]
+  name = "thoughtbot"
+  homepage = "http://www.thoughtbot.com"

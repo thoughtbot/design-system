@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <h2>
+    Components
+  </h2>
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <a href="{{.URL}}">
+          {{.Title}}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
