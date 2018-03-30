@@ -1,6 +1,6 @@
 @import "@thoughtbot/tbds-support/index";
 
-@import "./lib/form-input-button-unit.scss";
-@import "./lib/form-label.scss";
-@import "./lib/form-reset.scss";
-@import "./lib/form-text-input.scss";
+@import "./lib/reset.scss";
+@import "./lib/form.scss";
+
+@import "./lib/input-button-unit.scss";
