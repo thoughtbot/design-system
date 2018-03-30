@@ -6,7 +6,8 @@
     "build": "gulp build",
     "build-preview": "gulp build-preview",
     "server": "gulp server",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "documentation": "gulp documentation"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
