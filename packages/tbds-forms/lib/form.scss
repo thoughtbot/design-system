@@ -8,6 +8,16 @@
   margin-bottom: 0.5rem;
 }
 
+.tbds-form__help-text {
+  color: #666;
+  font-weight: $tbds-font-weight-normal;
+}
+
+.tbds-form__help-text--block {
+  display: block;
+  margin-top: 0.3rem;
+}
+
 .tbds-form__text-input {
   appearance: none;
   background-color: #fff;
