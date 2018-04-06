@@ -3,6 +3,6 @@ $tbds-brand-gray: #3d3e44 !default;
 
 $tbds-blue: #1568c1 !default;
 
-$tbds-color-text-default: #222 !default;
+$tbds-color-text-default: $tbds-brand-gray !default;
 $tbds-color-text-link: $tbds-color-text-default !default;
 $tbds-color-text-link-hover: $tbds-brand-red !default;
