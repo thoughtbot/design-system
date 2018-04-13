@@ -13,6 +13,38 @@ cd documentation
 npm run server
 ```
 
+## Documenting a component
+
+Each component may have its own documentation that gets pulled into the
+documentation site. To create documentation:
+
+1. In the component's folder, create a `documentation` folder.
+1. Inside of that, create an `index.md` file.
+1. Provide a front-matter entry for `title`.
+1. Inside that file, describe the component.
+1. Render examples by using the `example` Hugo shortcode.
+
+Here is an example documentation file for a fictional patetrn called
+`tbds-thingy` below:
+
+*packages/tbds-thingy/documentation/index.md*
+```
+---
+title: "tbds Thingy"
+---
+
+Here's a Thingy. Check out this basic example:
+
+{{< example fileName="example-basic.html" >}}
+
+And now check out this modified example:
+
+{{< example fileName="example-modified.html" >}}
+
+```
+
+The `fileName` argument references an HTML file example in the same folder.
+
 ## Releases
 
 Bump the package versions manually, then run:
