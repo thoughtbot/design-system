@@ -33,7 +33,7 @@ gulp.task('scss', () => (
 
 // Collect design system markup examples
 gulp.task("documentation", () => (
-  gulp.src("../packages/**/documentation/*" )
+  gulp.src("../packages/**/documentation/**/*" )
     .pipe(gulp.dest("./site/content/components"))
 ));
 
@@ -71,7 +71,7 @@ gulp.task("server", ["documentation", "hugo", "scss", "js", "fonts"], () => {
   gulp.watch("./src/scss/**/*.css", ["scss"]);
   gulp.watch("./src/fonts/**/*", ["fonts"]);
   gulp.watch("./site/**/*", ["hugo"]);
-  gulp.watch("../packages/**/documentation/*", ["documentation"]);
+  gulp.watch("../packages/**/documentation/**/*", ["documentation"]);
 });
 
 /**
