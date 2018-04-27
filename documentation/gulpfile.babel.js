@@ -68,7 +68,7 @@ gulp.task("server", ["documentation", "hugo", "scss", "js", "fonts"], () => {
     }
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/scss/**/*.css", ["scss"]);
+  gulp.watch("./src/scss/**/*.scss", ["scss"]);
   gulp.watch("./src/fonts/**/*", ["fonts"]);
   gulp.watch("./site/**/*", ["hugo"]);
   gulp.watch("../packages/**/documentation/**/*", ["documentation"]);
