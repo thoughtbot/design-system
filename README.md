@@ -19,15 +19,21 @@ Each component may have its own documentation that gets pulled into the
 documentation site. To create documentation:
 
 1. In the component's folder, create a `documentation` folder.
-1. Inside of that, create an `index.md` file.
+1. Inside of that, create a Markdown file of the same name as the pattern,
+   taking care to not name it `index.md`.
 1. Provide a front-matter entry for `title`.
 1. Inside that file, describe the component.
-1. Render examples by using the `example` Hugo shortcode.
+1. Create HTML examples by placing HTML files in a sub-folder, taking care to
+   not name them `index.html`.
+1. Provide a front-matter entry for `type: "example"`.
+1. Render the examples by using the `example` Hugo shortcode. When providing the
+   fileName argumenet, take care to include the subfolder and omit the file
+   extension for the HTML sample.
 
-Here is an example documentation file for a fictional patetrn called
-`tbds-thingy` below:
+Here is an example documentation file for a fictional pattern known as
+`tbds-thingy`:
 
-*packages/tbds-thingy/documentation/index.md*
+*packages/tbds-thingy/documentation/tbds-thingy.md*
 ```
 ---
 title: "tbds Thingy"
@@ -35,11 +41,25 @@ title: "tbds Thingy"
 
 Here's a Thingy. Check out this basic example:
 
-{{< example fileName="example-basic.html" >}}
+{{< example fileName="examples/basic.html" >}}
 
 And now check out this modified example:
 
-{{< example fileName="example-modified.html" >}}
+{{< example fileName="examples/modified.html" >}}
+
+```
+
+And the corresponding HTML sample for the `basic` example:
+
+*packages/tbds-thingy/documentation/tbds-thingy/examples/basic.html*
+```
+---
+type: "example"
+---
+
+<div class="tbds-thingy">
+  This thingy pattern is great, 'amirite?
+</div>
 
 ```
 
