@@ -3,7 +3,7 @@
     thoughtbot deisgn system components list.
   </h1>
   <ul>
-    {{ range .Pages.Components }}
+    {{ range (where .Pages "Type" "component") }}
       <li>
         <a href="{{.URL}}">
           {{.Title}}

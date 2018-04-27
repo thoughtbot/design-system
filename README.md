@@ -22,6 +22,7 @@ documentation site. To create documentation:
 1. Inside of that, create a Markdown file of the same name as the pattern,
    taking care to not name it `index.md`.
 1. Provide a front-matter entry for `title`.
+1. Provide a front-matter entry for `type: "component"`.
 1. Inside that file, describe the component.
 1. Create HTML examples by placing HTML files in a sub-folder, taking care to
    not name them `index.html`.
