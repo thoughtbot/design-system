@@ -6,13 +6,8 @@
     {{ range .Pages }}
       <li>
         <a href="{{.URL}}">
-          <h2>
-            {{.Title}}
-          </h2>
+          {{.Title}}
         </a>
-        <p>
-          {{.Content}}
-        </p>
       </li>
     {{ end }}
   </ul>
