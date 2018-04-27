@@ -13,7 +13,7 @@
     "@thoughtbot/tbds-app-frame": "0.0.2",
     "@thoughtbot/tbds-base": "0.0.3",
     "@thoughtbot/tbds-button": "0.0.7",
-    "@thoughtbot/tbds-forms": "0.0.2",
+    "@thoughtbot/tbds-forms": "0.0.3",
     "@thoughtbot/tbds-support": "0.0.3",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",
