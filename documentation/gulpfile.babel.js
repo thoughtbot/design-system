@@ -23,12 +23,12 @@ gulp.task("build", ["documentation", "scss", "js", "fonts"], (cb) => buildSite(c
 gulp.task("build-preview", ["scss", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // SCSS
-gulp.task('scss', () => (
-  gulp.src('./src/scss/**/*.scss')
+gulp.task("scss", () => (
+  gulp.src("./src/scss/**/*.scss")
     .pipe(scss({
-      includePaths: ['node_modules']
-    }).on('error', scss.logError))
-    .pipe(gulp.dest('./site/static/css/'))
+      includePaths: ["node_modules"]
+    }).on("error", scss.logError))
+    .pipe(gulp.dest("./site/static/css/"))
 ));
 
 // Collect design system markup examples
@@ -53,7 +53,7 @@ gulp.task("js", (cb) => {
 });
 
 // Move all fonts in a flattened directory
-gulp.task('fonts', () => (
+gulp.task("fonts", () => (
   gulp.src("./src/fonts/**/*")
     .pipe(flatten())
     .pipe(gulp.dest("./dist/fonts"))
