@@ -1,0 +1,19 @@
+$_padding-properties: (
+  "padding-top",
+  "padding-right",
+  "padding-bottom",
+  "padding-left",
+) !default;
+
+@for $i from 1 through length($tbds-space-values) {
+  $size: #{nth($tbds-space-values, $i)};
+  $scale: #{$i - 1};
+
+  @for $property from 1 through length($_padding-properties) {
+    $property: #{nth($_padding-properties, $property)};
+
+    .tbds-#{$property}-#{$scale} {
+      #{$property}: $size !important;
+    }
+  }
+}
