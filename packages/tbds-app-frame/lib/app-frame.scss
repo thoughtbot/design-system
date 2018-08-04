@@ -14,13 +14,13 @@
   flex-grow: 1;
 }
 
-.tbds-app-frame__footer {
-  flex-grow: 0;
-}
-
 .tbds-app-frame__body--vertical-middle {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.tbds-app-frame__footer {
+  flex-grow: 0;
 }
