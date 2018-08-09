@@ -2,7 +2,7 @@
 
 thoughtbot design system for thoughtbot websites.
 
-## Devleoper Setup
+## Developer Setup
 
 `./bin/setup`
 
