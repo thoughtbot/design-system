@@ -1,0 +1,16 @@
+.tbds-media {
+  align-items: flex-start;
+  display: flex;
+}
+
+.tbds-media--vertical-center {
+  align-items: center;
+}
+
+.tbds-media__figure {
+  margin-right: $tbds-space-2;
+}
+
+.tbds-media__body {
+  flex: 1;
+}
