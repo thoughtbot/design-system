@@ -1,0 +1,9 @@
+.tbds-stack {
+  --stack-gap: #{$tbds-space-2};
+}
+
+.tbds-stack__item {
+  &:not(:last-child) {
+    margin-bottom: var(--stack-gap);
+  }
+}
