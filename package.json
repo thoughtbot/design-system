@@ -1,9 +1,8 @@
 {
   "version": "0.0.1",
   "devDependencies": {
-    "stylelint": "^9.10.1",
-    "stylelint-order": "^1.0.0",
-    "stylelint-scss": "^3.3.0"
+    "@thoughtbot/stylelint-config": "^0.2.0",
+    "stylelint": "^9.10.1"
   },
   "scripts": {
     "lint_scss": "stylelint **/*.scss"

@@ -1,3 +1,5 @@
+/* stylelint-disable declaration-no-important */
+
 $_margin-properties: (
   "margin-top",
   "margin-right",
@@ -17,3 +19,5 @@ $_margin-properties: (
     }
   }
 }
+
+/* stylelint-enable */
