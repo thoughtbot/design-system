@@ -1,8 +1,8 @@
-# tbds Button
+# Button
 
 ## Install
 
-tbds packages are distributed through [npm]. You can install `tbds-button`
+tbds packages are distributed through npm. You can install `tbds-button`
 and add it as a dependency to your project's by running this command:
 
 ```
@@ -11,16 +11,13 @@ npm install --save @thoughtbot/tbds-button
 
 ## Usage
 
-tbds uses [Sass][sass]. You can import a package's styles into your project
-like this:
+tbds uses Sass. You can import a package's styles into your project like this:
 
 ```scss
 @import "@thoughtbot/tbds-button/index";
 ```
 
-## Documentation
-
-### Default button
+### Default
 
 ```html
 <button class="tbds-button" type="button">
@@ -55,6 +52,3 @@ like this:
   <svg class="tbds-button__icon tbds-button__icon--text-to-left">…</svg>
 </button>
 ```
-
-[npm]: https://www.npmjs.com/
-[sass]: http://sass-lang.com/
