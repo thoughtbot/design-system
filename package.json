@@ -3,7 +3,7 @@
   "devDependencies": {
     "stylelint": "^9.10.1",
     "stylelint-order": "^1.0.0",
-    "stylelint-scss": "^3.3.0"
+    "stylelint-scss": "^3.5.4"
   },
   "scripts": {
     "lint_scss": "stylelint **/*.scss"
