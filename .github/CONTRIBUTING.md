@@ -46,3 +46,14 @@ type: "example"
 ```
 
 The `fileName` argument references an HTML file example in the same folder.
+
+## Code style
+
+### CSS/Sass
+
+We use [stylelint][stylelint] to lint our CSS and Sass. It's configuration can
+be found in `.stylelintrc.json`. You can run stylelint from the command line via
+`npm run stylelint`, or [integrate it with your editor][editor-integration].
+
+[stylelint]: https://stylelint.io/
+[editor-integration]: https://stylelint.io/user-guide/complementary-tools/#editor-plugins
