@@ -6,17 +6,7 @@ thoughtbot design system for thoughtbot websites.
 
 `./bin/setup`
 
-## View Documentation Site Locally
-
-```
-cd documentation
-npm run server
-```
-
 ## Documenting a component
-
-Each component may have its own documentation that gets pulled into the
-documentation site. To create documentation:
 
 1. In the component's folder, create a `documentation` folder.
 1. Inside of that, create a Markdown file of the same name as the pattern,
@@ -27,9 +17,6 @@ documentation site. To create documentation:
 1. Create HTML examples by placing HTML files in a sub-folder, taking care to
    not name them `index.html`.
 1. Provide a front-matter entry for `type: "example"`.
-1. Render the examples by using the `example` Hugo shortcode. When providing the
-   fileName argumenet, take care to include the subfolder and omit the file
-   extension for the HTML sample.
 
 Here is an example documentation file for a fictional pattern known as
 `tbds-thingy`:

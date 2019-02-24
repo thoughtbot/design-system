@@ -1,7 +1,0 @@
-[build]
-  base    = "documentation"
-  command = "npm run build"
-  publish = "documentation/dist"
-
-[context.deploy-preview]
-  command = "npm run build-preview"

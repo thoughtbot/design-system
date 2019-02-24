@@ -1,8 +1,0 @@
-{{ $fileName := .Get "fileName" }}
-{{ $path :=  $fileName | printf "%s%s" .Page.Dir }}
-
-<iframe
-  src={{ $path }}
-  class="doc-iframe"
->
-</iframe>

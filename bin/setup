@@ -6,6 +6,3 @@ if ! command -v jq > /dev/null; then
 fi
 
 npm install
-
-cd documentation
-npm install
