@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-echo "Releasing alpha npm package(s)."
-
-$(npm bin)/lerna publish --npm-tag=pr --canary --exact --yes --skip-git

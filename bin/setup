@@ -1,8 +1,5 @@
-#!/bin/sh
-set -e
+#!/usr/bin/env sh
 
-if ! command -v jq > /dev/null; then
-  brew install jq
-fi
+set -e
 
 npm install

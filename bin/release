@@ -1,6 +1,0 @@
-#!/bin/sh
-set -e
-
-echo "📦  Publishing latest release..."
-
-$(npm bin)/lerna exec -- $(pwd)/bin/try_release
