@@ -5,6 +5,6 @@
     "stylelint": "^9.10.1"
   },
   "scripts": {
-    "lint_scss": "stylelint **/*.scss"
+    "stylelint": "npx stylelint 'packages/**/*.scss'"
   }
 }
