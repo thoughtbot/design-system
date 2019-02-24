@@ -1,6 +1,10 @@
 {
   "extends": "@thoughtbot/stylelint-config",
   "rules": {
-    "selector-class-pattern": "tbds-[a-z]+"
+    "selector-class-pattern": [
+      "tbds-[a-z]+", {
+        "message": "All CSS classes should be prefixed with `tbds-`"
+      }
+    ]
   }
 }
