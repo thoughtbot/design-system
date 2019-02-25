@@ -46,6 +46,13 @@ Heroku deployment.
 
   [nodejs-buildpack]: https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs
 
+## Browser support
+
+tbds supports:
+
+- Latest versions of Chrome, Firefox, and Safari
+- Edge 15+
+
 ## License
 
 thoughtbot/design-system is Copyright (c) 2019 thoughtbot, inc.
