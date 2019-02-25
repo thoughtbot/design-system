@@ -2,10 +2,6 @@
 
 thoughtbot design system for thoughtbot websites.
 
-## Developer Setup
-
-`./bin/setup`
-
 ## Installation for Ruby on Rails
 
 tbds is available through npm and requires Rails 5.1+. Yarn is used to support

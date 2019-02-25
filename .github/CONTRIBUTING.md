@@ -1,51 +1,33 @@
 # Contributing
 
-## Documenting a component
+## Contributing code
 
-1. In the component's folder, create a `documentation` folder.
-1. Inside of that, create a Markdown file of the same name as the pattern,
-   taking care to not name it `index.md`.
-1. Provide a front-matter entry for `title`.
-1. Provide a front-matter entry for `type: "component"`.
-1. Inside that file, describe the component.
-1. Create HTML examples by placing HTML files in a sub-folder, taking care to
-   not name them `index.html`.
-1. Provide a front-matter entry for `type: "example"`.
+1. Fork and clone the repository.
 
-Here is an example documentation file for a fictional pattern known as
-`tbds-thingy`:
+1. Install the dependencies:
 
-*packages/tbds-thingy/documentation/tbds-thingy.md*
-```
----
-title: "tbds Thingy"
----
+    ```
+    bin/setup
+    ```
 
-Here's a Thingy. Check out this basic example:
+1. Create a new branch from master
 
-{{< example fileName="examples/basic.html" >}}
+    ```
+    git checkout -b my-branch-name
+    ```
 
-And now check out this modified example:
+1. Make your changes, following our [code-style] (see below).
 
-{{< example fileName="examples/modified.html" >}}
+1. Commit your changes, with a [good commit message][commit].
 
-```
+1. Push your branch to GitHub and create a pull request.
 
-And the corresponding HTML sample for the `basic` example:
+Others will give constructive feedback. This is a time for discussion and
+improvements, and making the necessary changes will be required before we can
+merge the contribution.
 
-*packages/tbds-thingy/documentation/tbds-thingy/examples/basic.html*
-```
----
-type: "example"
----
-
-<div class="tbds-thingy">
-  This thingy pattern is great, 'amirite?
-</div>
-
-```
-
-The `fileName` argument references an HTML file example in the same folder.
+[code-style]: #code-style
+[commit]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
 ## Code style
 
@@ -57,3 +39,7 @@ be found in `.stylelintrc.json`. You can run stylelint from the command line via
 
 [stylelint]: https://stylelint.io/
 [editor-integration]: https://stylelint.io/user-guide/complementary-tools/#editor-plugins
+
+## Documenting a component
+
+Document each component in a `README.md` in each component's directory.
