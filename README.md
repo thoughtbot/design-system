@@ -24,7 +24,7 @@ Heroku deployment.
 
     You can now use the `tbds-button` class to style buttons.
 
-  [Yarn]: https://yarnpkg.com/en/
+[Yarn]: https://yarnpkg.com/en/
 
 ### Deploy Ruby on Rails app with tbds to Heroku
 
@@ -40,7 +40,7 @@ Heroku deployment.
 
 1. Add the [Node.js Buildpack][nodejs-buildpack] to your Heroku app.
 
-  [nodejs-buildpack]: https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs
+[nodejs-buildpack]: https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs
 
 ## Browser support
 
@@ -55,7 +55,7 @@ thoughtbot/design-system is Copyright (c) 2019 thoughtbot, inc.
 It is free software, and may be redistributed
 under the terms specified in the [LICENSE] file.
 
-  [LICENSE]: /LICENSE.md
+[LICENSE]: /LICENSE.md
 
 ## About
 
@@ -68,5 +68,5 @@ We love open source software!
 See [our other projects][community]
 or [hire us][hire] to help build your product.
 
-  [community]: https://thoughtbot.com/community?utm_source=github
-  [hire]: https://thoughtbot.com/hire-us?utm_source=github
+[community]: https://thoughtbot.com/community?utm_source=github
+[hire]: https://thoughtbot.com/hire-us?utm_source=github
