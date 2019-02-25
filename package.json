@@ -1,10 +1,16 @@
 {
-  "version": "0.0.1",
+  "author": "thoughtbot, inc.",
   "devDependencies": {
     "@thoughtbot/stylelint-config": "^0.2.0",
     "stylelint": "^9.10.1"
   },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thoughtbot/design-system.git"
+  },
   "scripts": {
     "stylelint": "npx stylelint 'packages/**/*.scss'"
-  }
+  },
+  "version": "0.0.1"
 }
