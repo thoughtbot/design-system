@@ -22,7 +22,7 @@ tbds uses Sass. You can import a package's styles into your project like this:
 ```html
 <div class="tbds-media">
   <div class="tbds-media__figure">
-    <img src="">
+    <img src="image.jpg" alt="alternative text">
   </div>
 
   <div class="tbds-media__body">
@@ -36,7 +36,7 @@ tbds uses Sass. You can import a package's styles into your project like this:
 ```html
 <div class="tbds-media tbds-media--vertical-center">
   <div class="tbds-media__figure">
-    <img src="">
+    <img src="image.jpg" alt="alternative text">
   </div>
 
   <div class="tbds-media__body">
