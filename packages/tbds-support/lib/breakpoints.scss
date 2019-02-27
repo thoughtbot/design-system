@@ -1,0 +1,15 @@
+$tbds-breakpoint-small: 480px;
+$tbds-breakpoint-medium: 768px;
+$tbds-breakpoint-large: 1024px;
+
+@mixin tablet {
+  @media (min-width: #{$tbds-breakpoint-medium}) and (max-width: #{$tbds-breakpoint-large - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$tbds-breakpoint-large}) {
+    @content;
+  }
+}
