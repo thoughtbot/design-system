@@ -1,6 +1,6 @@
 /* stylelint-disable declaration-no-important */
 
-$_margin-properties: (
+$_tbds-margin-properties: (
   "margin-top",
   "margin-right",
   "margin-bottom",
@@ -8,11 +8,11 @@ $_margin-properties: (
 ) !default;
 
 @for $i from 1 through length($tbds-space-values) {
-  $size: #{nth($tbds-space-values, $i)};
-  $scale: #{$i - 1};
+  $tbds-size: #{nth($tbds-space-values, $i)};
+  $tbds-scale: #{$i - 1};
 
   @for $property from 1 through length($_margin-properties) {
-    $property: #{nth($_margin-properties, $property)};
+    $tbds-property: #{nth($_margin-properties, $property)};
 
     .tbds-#{$property}-#{$scale} {
       #{$property}: $size !important;

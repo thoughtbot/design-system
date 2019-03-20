@@ -1,6 +1,11 @@
 {
   "extends": "@thoughtbot/stylelint-config",
   "rules": {
+    "scss/dollar-variable-pattern": [
+      "tbds-[a-z]+", {
+        "message": "All Sass variables should be prefixed with `tbds-`"
+      }
+    ],
     "selector-class-pattern": [
       "tbds-[a-z]+", {
         "message": "All CSS classes should be prefixed with `tbds-`"
