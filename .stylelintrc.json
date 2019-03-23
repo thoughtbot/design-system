@@ -6,6 +6,11 @@
         "message": "All Sass variables should be prefixed with `tbds-`"
       }
     ],
+    "scss/dollar-variable-default": [
+      true, {
+        "ignore": "local"
+      }
+    ],
     "selector-class-pattern": [
       "tbds-[a-z]+", {
         "message": "All CSS classes should be prefixed with `tbds-`"
