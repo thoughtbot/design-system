@@ -1,0 +1,25 @@
+$_icon-margin: .2em;
+$_visually-center-offset: -.1em;
+
+.inline-icon {
+  height: 1em;
+  position: relative;
+  top: $_visually-center-offset;
+  vertical-align: middle;
+
+  &:first-child {
+    margin-right: $_icon-margin;
+  }
+
+  &:last-child {
+    margin-left: $_icon-margin;
+  }
+}
+
+.inline-icon--large {
+  height: 1.25em;
+}
+
+.inline-icon--small {
+  height: .75em;
+}
