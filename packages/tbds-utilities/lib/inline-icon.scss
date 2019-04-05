@@ -1,7 +1,7 @@
 $_icon-margin: .2em;
 $_visually-center-offset: -.1em;
 
-.inline-icon {
+.tbds-inline-icon {
   height: 1em;
   position: relative;
   top: $_visually-center-offset;
@@ -16,10 +16,10 @@ $_visually-center-offset: -.1em;
   }
 }
 
-.inline-icon--large {
+.tbds-inline-icon--large {
   height: 1.25em;
 }
 
-.inline-icon--small {
+.tbds-inline-icon--small {
   height: .75em;
 }
