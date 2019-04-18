@@ -8,14 +8,14 @@ $_tbds-margin-properties: (
 ) !default;
 
 @for $i from 1 through length($tbds-space-values) {
-  $tbds-size: #{nth($tbds-space-values, $i)};
-  $tbds-scale: #{$i - 1};
+  $size: #{nth($tbds-space-values, $i)};
+  $scale: #{$i - 1};
 
   @for $property from 1 through length($_tbds-margin-properties) {
-    $tbds-property: #{nth($_tbds-margin-properties, $property)};
+    $property: #{nth($_tbds-margin-properties, $property)};
 
-    .tbds-#{$property}-#{$tbds-scale} {
-      #{$property}: $tbds-size !important;
+    .tbds-#{$property}-#{$scale} {
+      #{$property}: $size !important;
     }
   }
 }
