@@ -11,11 +11,11 @@ $_tbds-padding-properties: (
   $tbds-size: #{nth($tbds-space-values, $i)};
   $tbds-scale: #{$i - 1};
 
-  @for $property from 1 through length($_padding-properties) {
-    $tbds-property: #{nth($_padding-properties, $property)};
+  @for $property from 1 through length($_tbds-padding-properties) {
+    $tbds-property: #{nth($_tbds-padding-properties, $property)};
 
-    .tbds-#{$property}-#{$scale} {
-      #{$property}: $size !important;
+    .tbds-#{$property}-#{$tbds-scale} {
+      #{$property}: $tbds-size !important;
     }
   }
 }
