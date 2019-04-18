@@ -1,21 +1,6 @@
-# Support
-
-## Install
-
-tbds packages are distributed through npm. You can install `tbds-support`
-and add it as a dependency to your project's by running this command:
-
-```
-npm install --save @thoughtbot/tbds-support
-```
+# Settings
 
 ## Usage
-
-tbds uses Sass. You can import a package's styles into your project like this:
-
-```scss
-@import "@thoughtbot/tbds-support/index";
-```
 
 ## Layout variables
 

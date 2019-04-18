@@ -1,21 +1,6 @@
 # Media
 
-## Install
-
-tbds packages are distributed through npm. You can install `tbds-media`
-and add it as a dependency to your project's by running this command:
-
-```
-npm install --save @thoughtbot/tbds-media
-```
-
 ## Usage
-
-tbds uses Sass. You can import a package's styles into your project like this:
-
-```scss
-@import "@thoughtbot/tbds-media/index";
-```
 
 ### Default
 

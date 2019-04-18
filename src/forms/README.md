@@ -1,22 +1,5 @@
 # Forms
 
-## Install
-
-tbds packages are distributed through npm. You can install `tbds-forms`
-and add it as a dependency to your project's by running this command:
-
-```
-npm install --save @thoughtbot/tbds-forms
-```
-
-## Usage
-
-tbds uses Sass. You can import a package's styles into your project like this:
-
-```scss
-@import "@thoughtbot/tbds-forms/index";
-```
-
 ### Default
 
 ```html

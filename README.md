@@ -13,16 +13,14 @@ Heroku deployment.
 1. Install the tbds package and save it as a dependency:
 
     ```
-    yarn add @thoughtbot/tbds-button@0.0.2
+    yarn add @thoughtbot/design-system
     ```
 
-1. Import the component in your Sass manifest:
+1. Import the system in your Sass manifest:
 
     ```
-    @import "@thoughtbot/tbds-button/index";
+    @import "@thoughtbot/design-system/src/index";
     ```
-
-    You can now use the `tbds-button` class to style buttons.
 
 [Yarn]: https://yarnpkg.com/en/
 

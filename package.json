@@ -5,12 +5,13 @@
     "stylelint": "^9.10.1"
   },
   "license": "MIT",
+  "name": "@thoughtbot/design-system",
   "repository": {
     "type": "git",
     "url": "https://github.com/thoughtbot/design-system.git"
   },
   "scripts": {
-    "stylelint": "npx stylelint 'packages/**/*.scss'"
+    "stylelint": "npx stylelint 'src/**/*.scss'"
   },
   "version": "0.0.1"
 }
