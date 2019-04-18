@@ -1,3 +1,5 @@
+scss:
+  enabled: false
 stylelint:
   config_file: .stylelintrc.json
   enabled: true
