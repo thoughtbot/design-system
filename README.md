@@ -40,6 +40,9 @@ Heroku deployment.
 
 1. Add the [Node.js Buildpack][nodejs-buildpack] to your Heroku app.
 
+    Note: You'll need to order the buildpacks to have Node.js first, followed
+    by Ruby.
+
 [nodejs-buildpack]: https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs
 
 ## Browser support
