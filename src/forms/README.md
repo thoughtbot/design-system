@@ -3,8 +3,8 @@
 ### Default
 
 ```html
-<form>
-  <div class="tbds-form__row">
+<form class="tbds-stack tbds-stack--large">
+  <div class="tbds-stack__item">
     <label class="tbds-form__label" for="full-name-1">
       Full name
     </label>
@@ -18,7 +18,7 @@
     >
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <label class="tbds-form__label" for="email-address">
       Email
       <small class="tbds-form__help-text">(required)</small>
@@ -34,7 +34,7 @@
     >
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <label class="tbds-form__label" for="phone-number">
       Phone number
 
@@ -54,7 +54,7 @@
     >
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <label class="tbds-form__label" for="age">
       Age
     </label>
@@ -67,7 +67,7 @@
     >
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <label class="tbds-form__label" for="textarea">
       Biography
 
@@ -85,7 +85,7 @@
     ></textarea>
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <label class="tbds-form__label" for="id-number">
       ID number
 
@@ -103,7 +103,7 @@
     >
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <label class="tbds-form__label" for="select">
       Which office do you work from?
     </label>
@@ -115,7 +115,7 @@
     </select>
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <fieldset>
       <legend class="tbds-form__label">
         Privacy settings
@@ -151,7 +151,7 @@
     </fieldset>
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <fieldset>
       <legend class="tbds-form__label">
         What borough do you live in?
@@ -229,7 +229,7 @@
     </fieldset>
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <fieldset>
       <legend class="tbds-form__label">
         What foods do you enjoy?
@@ -283,7 +283,7 @@
     </fieldset>
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <label class="tbds-form__label" for="file-input">
       Upload a file
     </label>
@@ -291,7 +291,7 @@
     <input type="file" id="file-input">
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <fieldset>
       <legend class="tbds-form__label">
         Options
@@ -335,7 +335,7 @@
     </fieldset>
   </div>
 
-  <div class="tbds-form__row">
+  <div class="tbds-stack__item">
     <button class="tbds-button" type="submit">
       Button
     </button>
