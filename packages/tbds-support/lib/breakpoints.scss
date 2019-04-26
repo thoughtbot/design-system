@@ -1,14 +1,20 @@
-$tbds-breakpoint-small: 480px;
-$tbds-breakpoint-medium: 768px;
-$tbds-breakpoint-large: 1024px;
+$tbds-breakpoint-small: 32em;
+$tbds-breakpoint-medium: 50em;
+$tbds-breakpoint-large: 72em;
 
-@mixin tablet {
-  @media (min-width: #{$tbds-breakpoint-medium}) and (max-width: #{$tbds-breakpoint-large - 1px}) {
+@mixin small {
+  @media (min-width: #{$tbds-breakpoint-small}) {
     @content;
   }
 }
 
-@mixin desktop {
+@mixin medium {
+  @media (min-width: #{$tbds-breakpoint-medium}) {
+    @content;
+  }
+}
+
+@mixin large {
   @media (min-width: #{$tbds-breakpoint-large}) {
     @content;
   }
