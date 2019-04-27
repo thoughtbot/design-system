@@ -1,6 +1,16 @@
 {
   "extends": "@thoughtbot/stylelint-config",
   "rules": {
+    "scss/at-function-pattern": [
+      "tbds-[a-z]+", {
+        "message": "All Sass functions should be prefixed with `tbds-`"
+      }
+    ],
+    "scss/at-mixin-pattern": [
+      "tbds-[a-z]+", {
+        "message": "All Sass mixins should be prefixed with `tbds-`"
+      }
+    ],
     "scss/dollar-variable-pattern": [
       "tbds-[a-z]+", {
         "ignore": "local",
