@@ -14,6 +14,11 @@ project adheres to [Semantic Versioning](http://semver.org).
 - `$tbds-blue` is now `$tbds-brand-blue`, and its value changed from `#1568c1`
   to `#0b758c`.
 
+### Removed
+
+- `tbds-form__row` has been removed. Use the Stack component instead to achieve
+  the same layout.
+
 [unreleased]: https://github.com/thoughtbot/design-system/compare/v0.1.0...HEAD
 
 ## [0.1.0] - 2019-04-19
