@@ -2,6 +2,14 @@
 
 thoughtbot design system for thoughtbot websites.
 
+## Applications using tbds
+
+- [tbot][tbot]
+- [thoughtbot search][thoughtbot-search]
+
+[tbot]: https://tbot.io/
+[thoughtbot-search]: https://search.thoughtbot.com/
+
 ## Installation for Ruby on Rails
 
 tbds is available through npm and requires Rails 5.1+. Yarn is used to support
