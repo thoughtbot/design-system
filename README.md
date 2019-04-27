@@ -7,7 +7,7 @@ thoughtbot design system for thoughtbot websites.
 tbds is available through npm and requires Rails 5.1+. Yarn is used to support
 Heroku deployment.
 
-1. Make sure you have the [Yarn] package manager installed:
+1. Make sure you have the [Yarn][yarn] package manager installed:
    https://yarnpkg.com/en/docs/install
 
 1. Install the tbds package and save it as a dependency:
@@ -22,7 +22,7 @@ Heroku deployment.
     @import "@thoughtbot/design-system/src/index";
     ```
 
-[Yarn]: https://yarnpkg.com/en/
+[yarn]: https://yarnpkg.com/en/
 
 ### Deploy Ruby on Rails app with tbds to Heroku
 
