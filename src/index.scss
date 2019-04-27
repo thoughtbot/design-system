@@ -8,3 +8,44 @@
 @import "stack/index";
 
 @import "utilities/index";
+
+
+
+.tbds-list-bare {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+
+.tbds-long-form-text {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 1em;
+  }
+
+  p,
+  pre {
+    margin-bottom: 1em;
+  }
+
+  ol,
+  ul {
+    li:not(:first-child) {
+      padding-top: 0.25em;
+    }
+
+    li:not(:last-child) {
+      padding-bottom: 0.25em;
+    }
+
+    ol,
+    ul {
+      margin-bottom: 1em;
+    }
+  }
+}

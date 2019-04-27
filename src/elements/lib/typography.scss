@@ -9,7 +9,18 @@ h4,
 h5,
 h6 {
   font-weight: $tbds-font-weight-bold;
+  margin: 0;
 }
+
+p {
+  margin: 0;
+}
+
+// ol,
+// ul {
+//   list-style: none;
+//   margin: 0;
+// }
 
 a {
   color: $tbds-color-text-link;

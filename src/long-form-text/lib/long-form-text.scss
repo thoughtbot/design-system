@@ -1,0 +1,22 @@
+.tbds-avatar {
+  --border-radius: 3px;
+  --size: 3rem;
+
+  border-radius: var(--border-radius);
+  display: inline-block;
+  height: var(--size);
+  object-fit: cover;
+  width: var(--size);
+}
+
+.tbds-avatar--circle {
+  --border-radius: 100%;
+}
+
+.tbds-avatar--small {
+  --size: 2rem;
+}
+
+.tbds-avatar--large {
+  --size: 4rem;
+}
