@@ -7,7 +7,12 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ### Added
 
-- Global variables for styling focus outlines
+- Global variables for styling focus outlines.
+
+### Changed
+
+- `$tbds-blue` is now `$tbds-brand-blue`, and its value changed from `#1568c1`
+  to `#0b758c`.
 
 [unreleased]: https://github.com/thoughtbot/design-system/compare/v0.1.0...HEAD
 
