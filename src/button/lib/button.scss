@@ -33,6 +33,11 @@ $_tbds-button-text-color-hover: #fff !default;
     color: $_tbds-button-text-color-hover;
   }
 
+  &:focus {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px $tbds-focus-outline-color;
+    outline: none;
+  }
+
   &:disabled {
     cursor: not-allowed;
     opacity: 0.5;

@@ -5,7 +5,9 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
-Nothing at the moment.
+### Added
+
+- Global variables for styling focus outlines
 
 [unreleased]: https://github.com/thoughtbot/design-system/compare/v0.1.0...HEAD
 

@@ -19,6 +19,11 @@ a {
   &:hover {
     color: $tbds-color-text-link-hover;
   }
+
+  &:focus {
+    outline: $tbds-focus-outline;
+    outline-offset: $tbds-focus-outline-offset;
+  }
 }
 
 b,
