@@ -8,11 +8,15 @@ project adheres to [Semantic Versioning](http://semver.org).
 ### Added
 
 - Global variables for styling focus outlines.
+- `tbds-inline-stack` component.
+- The block stack component now has a modifier to add a border between each
+  item: `tbds-block-stack--bordered`.
 
 ### Changed
 
 - `$tbds-blue` is now `$tbds-brand-blue`, and its value changed from `#1568c1`
   to `#0b758c`.
+- `tbds-stack` is now `tbds-block-stack`
 
 ### Removed
 
