@@ -6,9 +6,11 @@ thoughtbot design system for thoughtbot websites.
 
 - [tbot][tbot]
 - [thoughtbot search][thoughtbot-search]
+- [Vellum][vellum]
 
 [tbot]: https://tbot.io/
 [thoughtbot-search]: https://search.thoughtbot.com/
+[vellum]: https://vellum.thoughtbot.com/
 
 ## Installation for Ruby on Rails
 
