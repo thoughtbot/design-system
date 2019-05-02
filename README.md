@@ -4,10 +4,12 @@ thoughtbot design system for thoughtbot websites.
 
 ## Applications using tbds
 
+- [apprentice.thoughtbot.com][apprentice]
 - [tbot][tbot]
 - [thoughtbot search][thoughtbot-search]
 - [Vellum][vellum]
 
+[apprentice]: https://apprentice.thoughtbot.com/
 [tbot]: https://tbot.io/
 [thoughtbot-search]: https://search.thoughtbot.com/
 [vellum]: https://vellum.thoughtbot.com/
