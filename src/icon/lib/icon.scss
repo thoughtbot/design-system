@@ -1,0 +1,18 @@
+.tbds-icon {
+  --size: 1em;
+
+  fill: currentcolor;
+  height: var(--size);
+}
+
+.tbds-icon--brand {
+  fill: $tbds-brand-red;
+}
+
+.tbds-inline-icon--large {
+  --size: 1.25em;
+}
+
+.tbds-inline-icon--small {
+  --size: 0.75em;
+}
