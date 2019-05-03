@@ -2,7 +2,7 @@
 
 [View prototype on CodePen][codepen].
 
-[codepen]:
+[codepen]: https://codepen.io/thoughtbot/pen/mYbVgx
 
 ## Usage
 
