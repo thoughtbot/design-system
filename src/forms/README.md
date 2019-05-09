@@ -1,5 +1,9 @@
 # Forms
 
+[View prototype on CodePen][codepen].
+
+[codepen]: https://codepen.io/thoughtbot/pen/BeoedZ
+
 ### Default
 
 ```html
