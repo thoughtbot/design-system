@@ -5,12 +5,19 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
+[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.2.0...HEAD
+
+## [0.2.0] - 2019-05-10
+
 ### Added
 
 - Global variables for styling focus outlines.
 - `tbds-inline-stack` component.
 - The block stack component now has a modifier to add a border between each
   item: `tbds-block-stack--bordered`.
+- Added `tbds-icon` component for simple icons
+- Added `breakpoints` to settings module which provides a few basic media
+  queries
 
 ### Changed
 
@@ -23,7 +30,7 @@ project adheres to [Semantic Versioning](http://semver.org).
 - `tbds-form__row` has been removed. Use the Stack component instead to achieve
   the same layout.
 
-[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.1.0...HEAD
+[0.2.0]: https://github.com/thoughtbot/design-system/compare/v0.1.0...v0.2.0
 
 ## [0.1.0] - 2019-04-19
 
