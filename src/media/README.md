@@ -1,5 +1,9 @@
 # Media
 
+[View prototype on CodePen][codepen].
+
+[codepen]: https://codepen.io/thoughtbot/pen/LoNMxz
+
 ## Usage
 
 ### Default
