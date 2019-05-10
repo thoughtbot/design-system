@@ -14,14 +14,6 @@
 </svg>
 ```
 
-### Brand color
-
-```html
-<svg class="tbds-icon tbds-icon--brand">
-  …
-</svg>
-```
-
 ### Size modifiers
 
 ```html
