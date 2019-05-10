@@ -1,0 +1,21 @@
+$tbds-breakpoint-small: 32em !default;
+$tbds-breakpoint-medium: 50em !default;
+$tbds-breakpoint-large: 72em !default;
+
+@mixin tbds-small {
+  @media (min-width: #{$tbds-breakpoint-small}) {
+    @content;
+  }
+}
+
+@mixin tbds-medium {
+  @media (min-width: #{$tbds-breakpoint-medium}) {
+    @content;
+  }
+}
+
+@mixin tbds-large {
+  @media (min-width: #{$tbds-breakpoint-large}) {
+    @content;
+  }
+}
