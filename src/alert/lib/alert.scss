@@ -1,0 +1,72 @@
+.tbds-alert {
+  background-color: $tbds-default-gray;
+  border-radius: 4px;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+
+  a {
+    color: currentColor;
+    text-decoration: underline;
+  }
+}
+
+.tbds-alert--drop-in {
+  animation: drop 1s ease;
+}
+
+.tbds-alert--full-bleed {
+  border-radius: 0;
+}
+
+.tbds-alert--info {
+  background-color: $tbds-info-blue;
+  color: darken($tbds-info-blue, 60%);
+}
+
+.tbds-alert--success {
+  background-color: $tbds-success-green;
+  color: darken($tbds-success-green, 60%);
+}
+
+.tbds-alert--warn {
+  background-color: $tbds-warn-yellow;
+  color: darken($tbds-warn-yellow, 60%);
+}
+
+.tbds-alert--failure {
+  background-color: $tbds-failure-red;
+  color: darken($tbds-failure-red, 60%);
+}
+
+.tbds-alert--danger {
+  $_stripe1: $tbds-danger-red;
+  $_stripe2: darken($tbds-danger-red, 3%);
+  background: repeating-linear-gradient(
+    -45deg,
+    $_stripe1,
+    $_stripe1 2em,
+    $_stripe2 2em,
+    $_stripe2 4em);
+  background-color: $tbds-danger-red;
+  background-origin: center middle;
+  color: darken($tbds-danger-red, 60%);
+  font-weight: 900;
+}
+
+.tbds-alert--dark {
+  background-color: $tbds-brand-gray;
+  color: #fff;
+}
+
+@keyframes drop {
+  0% {
+    box-shadow: 0 40px 30px rgba(#000, 0.2);
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
