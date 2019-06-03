@@ -5,6 +5,10 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
+### Added
+
+- Added the `tbds-line-height-0` utility class.
+
 [unreleased]: https://github.com/thoughtbot/design-system/compare/v0.2.0...HEAD
 
 ## [0.2.0] - 2019-05-10

@@ -61,3 +61,14 @@
   Center-align text
 </p>
 ```
+
+### Line height utilities
+
+Set `line-height` to `0` to remove extra space from elements that inherit
+`line-height` but don't contain any text.
+
+```html
+<div class="tbds-line-height-0">
+  <svg>…</svg>
+</div>
+```
