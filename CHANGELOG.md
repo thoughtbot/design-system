@@ -9,6 +9,11 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 - Added the `tbds-line-height-0` utility class.
 
+### Changed
+
+- `tbds-app-frame__body--vertical-middle` was renamed to
+  `tbds-app-frame__body--center-items`
+
 [unreleased]: https://github.com/thoughtbot/design-system/compare/v0.2.0...HEAD
 
 ## [0.2.0] - 2019-05-10
