@@ -1,0 +1,13 @@
+/* stylelint-disable declaration-no-important */
+
+$_tbds-background-colors: (
+  "red": $tbds-brand-red,
+) !default;
+
+@each $color, $value in $_tbds-background-colors {
+  .tbds-background-color-#{$color} {
+    background-color: $value !important;
+  }
+}
+
+/* stylelint-enable */
