@@ -1,6 +1,12 @@
-$tbds-breakpoint-small: 32em !default;
-$tbds-breakpoint-medium: 50em !default;
-$tbds-breakpoint-large: 72em !default;
+$tbds-breakpoints: (
+  "small": 32em,
+  "medium": 50em,
+  "large": 72em,
+) !default;
+
+$tbds-breakpoint-small: map-get($tbds-breakpoints, "small") !default;
+$tbds-breakpoint-medium: map-get($tbds-breakpoints, "medium") !default;
+$tbds-breakpoint-large: map-get($tbds-breakpoints, "large") !default;
 
 @mixin tbds-small {
   @media (min-width: #{$tbds-breakpoint-small}) {
