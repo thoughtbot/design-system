@@ -14,6 +14,10 @@ project adheres to [Semantic Versioning](http://semver.org).
 - `tbds-app-frame__body--vertical-middle` was renamed to
   `tbds-app-frame__body--center-items`
 
+## Fixed
+
+- Fixed button icon alignment.
+
 [unreleased]: https://github.com/thoughtbot/design-system/compare/v0.2.0...HEAD
 
 ## [0.2.0] - 2019-05-10

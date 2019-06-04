@@ -9,17 +9,19 @@ $_tbds-button-text-color: #fff !default;
 $_tbds-button-text-color-hover: #fff !default;
 
 .tbds-button {
+  align-items: center;
   appearance: none;
   background-color: $_tbds-button-background-color;
   border: $_tbds-button-border;
   border-radius: $_tbds-button-border-radius;
   color: $_tbds-button-text-color;
   cursor: pointer;
-  display: inline-block;
+  display: inline-flex;
   font-family: $_tbds-button-font-family;
   font-size: $_tbds-button-font-size;
   -webkit-font-smoothing: antialiased;
   font-weight: $_tbds-button-font-weight;
+  justify-content: center;
   line-height: 1;
   padding: 0.75em 1.5em;
   text-decoration: none;
@@ -49,8 +51,6 @@ $_tbds-button-text-color-hover: #fff !default;
 }
 
 .tbds-button--full-width {
-  display: block;
-  text-align: center;
   width: 100%;
 }
 
