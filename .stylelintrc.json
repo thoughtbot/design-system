@@ -1,6 +1,10 @@
 {
   "extends": "@thoughtbot/stylelint-config",
+  "plugins": [
+    "stylelint-use-logical"
+  ],
   "rules": {
+    "csstools/use-logical": "always",
     "scss/at-function-pattern": [
       "tbds-[a-z]+", {
         "message": "All Sass functions should be prefixed with `tbds-`"
