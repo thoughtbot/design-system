@@ -22,22 +22,22 @@
 </button>
 ```
 
-### Button with icon on the left
+### Button with icon at the start
 
 ```html
 <button class="tbds-button" type="button">
-  <svg class="tbds-button__icon tbds-button__icon--text-to-right">…</svg>
+  <svg class="tbds-button__icon tbds-button__icon--start">…</svg>
 
   Button
 </button>
 ```
 
-### Button with icon on the right
+### Button with icon at the end
 
 ```html
 <button class="tbds-button" type="button">
   Button
 
-  <svg class="tbds-button__icon tbds-button__icon--text-to-left">…</svg>
+  <svg class="tbds-button__icon tbds-button__icon--end">…</svg>
 </button>
 ```

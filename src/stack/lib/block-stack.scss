@@ -29,12 +29,12 @@ $_tbds-block-stack-border: 1px solid #bbb !default;
 }
 
 .tbds-block-stack__item:not(:last-child) {
-  margin-bottom: calc(var(--gap) / 2);
-  padding-bottom: calc(var(--gap) / 2);
+  margin-block-end: calc(var(--gap) / 2);
+  padding-block-end: calc(var(--gap) / 2);
 }
 
 .tbds-block-stack--bordered {
   .tbds-block-stack__item:not(:last-child) {
-    border-bottom: $_tbds-block-stack-border;
+    border-block-end: $_tbds-block-stack-border;
   }
 }

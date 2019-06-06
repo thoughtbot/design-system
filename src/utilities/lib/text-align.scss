@@ -1,7 +1,7 @@
 $_tbds-text-align-values: (
-  "left",
+  "start",
   "center",
-  "right",
+  "end",
 ) !default;
 
 @each $text-align-value in $_tbds-text-align-values {
