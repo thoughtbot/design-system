@@ -1,4 +1,4 @@
-$tbds-width-lengths: (
+$tbds-inline-size-lengths: (
   20%,
   25%,
   33.3333%,
@@ -11,11 +11,11 @@ $tbds-width-lengths: (
   100%,
 ) !default;
 
-@each $length in $tbds-width-lengths {
+@each $length in $tbds-inline-size-lengths {
   $percent-sign: \0025;
 
   @include tbds-generate-breakpoint-classes(
-    $property: "width",
+    $property: "inline-size",
     $value: $length,
     $variant: round(tbds-strip-unit($length)) + $percent-sign,
   );

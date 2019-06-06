@@ -7,13 +7,15 @@
 Margin utilities are based on the global spacing scale and available
 for each of these margin properties:
 
-- `margin-top`
-- `margin-right`
-- `margin-bottom`
-- `margin-left`
+- `margin-block-start`
+- `margin-inline-end`
+- `margin-block-end`
+- `margin-inline-start`
+- `margin-block`
+- `margin-inline`
 
 ```html
-<div class="tbds-margin-top-2">
+<div class="tbds-margin-block-start-2">
   Some content
 </div>
 ```
@@ -25,7 +27,7 @@ Each variant's styles are applied at the breakpoint and up (using a
 `min-width` media query).
 
 ```html
-<div class="tbds-margin-right-4@medium">
+<div class="tbds-margin-inline-end-4@medium">
   Some content
 </div>
 ```
@@ -35,13 +37,15 @@ Each variant's styles are applied at the breakpoint and up (using a
 Padding utilities are based on the global spacing scale and available
 for each of these padding properties:
 
-- `padding-top`
-- `padding-right`
-- `padding-bottom`
-- `padding-left`
+- `padding-block-start`
+- `padding-inline-end`
+- `padding-block-end`
+- `padding-inline-start`
+- `padding-block`
+- `padding-inline`
 
 ```html
-<div class="tbds-padding-bottom-1">
+<div class="tbds-padding-block-end-1">
   Some content
 </div>
 ```
@@ -53,15 +57,15 @@ Each variant's styles are applied at the breakpoint and up (using a
 `min-width` media query).
 
 ```html
-<div class="tbds-padding-bottom-1@small">
+<div class="tbds-padding-block-end-1@small">
   Some content
 </div>
 ```
 
-### Width
+### Inline size utilities
 
-Width utilities can be used to set the `width` on element, and are available
-with the following values (quarters, thirds, and fifths):
+Inline size utilities can be used to set the `inline-size` on element, and are
+available with the following values (quarters, thirds, and fifths):
 
 - `20%`
 - `25%`
@@ -75,19 +79,19 @@ with the following values (quarters, thirds, and fifths):
 - `100%`
 
 ```html
-<div class="tbds-width-25%">
+<div class="tbds-inline-size-25%">
   Some content
 </div>
 ```
 
 #### Breakpoint variants
 
-Width utilities can also be used to set `width` at specific breakpoints.
-Each variant's styles are applied at the breakpoint and up (using a
-`min-width` media query).
+Inline size utilities can also be used to set `inline-size` at specific
+breakpoints. Each variant's styles are applied at the breakpoint and up (using
+a `min-width` media query).
 
 ```html
-<div class="tbds-width-50%@medium">
+<div class="tbds-inline-size-50%@medium">
   Some content
 </div>
 ```
@@ -123,14 +127,14 @@ Each variant's styles are applied at the breakpoint and up (using a
 ### Text align
 
 ```html
-<p class="tbds-text-align-right">
-  Right-align text
+<p class="tbds-text-align-end">
+  Align text to the end of the content flow
 </p>
 ```
 
 ```html
-<p class="tbds-text-align-left">
-  Left-align text
+<p class="tbds-text-align-start">
+  Align text to the start of the content flow
 </p>
 ```
 

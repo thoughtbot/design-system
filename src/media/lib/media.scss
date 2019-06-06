@@ -3,12 +3,12 @@
   display: flex;
 }
 
-.tbds-media--vertical-center {
+.tbds-media--block-center {
   align-items: center;
 }
 
 .tbds-media__figure {
-  margin-right: $tbds-space-2;
+  margin-inline-end: $tbds-space-2;
 }
 
 .tbds-media__body {

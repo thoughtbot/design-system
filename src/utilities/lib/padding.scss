@@ -1,8 +1,10 @@
 $_tbds-padding-properties: (
-  "padding-top",
-  "padding-right",
-  "padding-bottom",
-  "padding-left",
+  "padding-block",
+  "padding-block-end",
+  "padding-block-start",
+  "padding-inline",
+  "padding-inline-end",
+  "padding-inline-start",
 ) !default;
 
 @each $padding-property in $_tbds-padding-properties {

@@ -11,8 +11,8 @@ project adheres to [Semantic Versioning](http://semver.org).
 - Added breakpoint variants for the `margin`, `padding`, and `text-align`
   utility classes, e.g. `tbds-margin-right-4@medium`
   and `tbds-text-align-right@large`.
-- Added `width` utility classes (e.g. `tbds-width-25%`) for the
-  following lengths:
+- Added `inline-size` (`width`) utility classes (e.g. `tbds-inline-size-25%`)
+  for the following lengths:
 
     - `20%`
     - `25%`
@@ -25,12 +25,37 @@ project adheres to [Semantic Versioning](http://semver.org).
     - `80%`
     - `100%`
 
-    Breakpoint-based variants are also available (e.g. `tbds-width-25%@medium`).
+    Breakpoint-based variants are also available
+    (e.g. `tbds-inline-size-25%@medium`).
+
+- Added utility classes for margin and padding block & inline shorthands:
+
+    - `tbds-margin-block-*`
+    - `tbds-margin-inline-*`
+    - `tbds-padding-block-*`
+    - `tbds-padding-inline-*`
 
 ### Changed
 
 - `tbds-app-frame__body--vertical-middle` was renamed to
   `tbds-app-frame__body--center-items`
+- Layout properties and values now use logical dimensions instead of physical
+  dimensions, for example `width` is now `inline-size` and `height` is now
+  `block-size`. The following classes were updated to match the new syntax:
+
+    - `tbds-text-align-left` is now `tbds-text-align-start`
+    - `tbds-text-align-right` is now `tbds-text-align-end`
+    - `tbds-margin-top-*` is now `tbds-margin-block-start-*`
+    - `tbds-margin-right-*` is now `tbds-margin-inline-end-*`
+    - `tbds-margin-bottom-*` is now `tbds-margin-block-end-*`
+    - `tbds-margin-left-*` is now `tbds-margin-inline-start-*`
+    - `tbds-padding-top-*` is now `tbds-padding-block-start-*`
+    - `tbds-padding-right-*` is now `tbds-padding-inline-end-*`
+    - `tbds-padding-bottom-*` is now `tbds-padding-block-end-*`
+    - `tbds-padding-left-*` is now `tbds-padding-inline-start-*`
+    - `tbds-button__icon--text-to-left` is now `tbds-button__icon--end`
+    - `tbds-button__icon--text-to-right` is now `tbds-button__icon--start`
+    - `tbds-media--vertical-center` is now `tbds-media tbds-media--block-center`
 
 ### Fixed
 

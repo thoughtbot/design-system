@@ -51,19 +51,19 @@ $_tbds-button-text-color-hover: #fff !default;
 }
 
 .tbds-button--full-width {
-  width: 100%;
+  inline-size: 100%;
 }
 
 .tbds-button__icon {
+  block-size: 1em;
   fill: currentColor;
-  height: 1em;
-  width: 1em;
+  inline-size: 1em;
 }
 
-.tbds-button__icon--text-to-left {
-  margin-left: 0.5em;
+.tbds-button__icon--start {
+  margin-inline-end: 0.5em;
 }
 
-.tbds-button__icon--text-to-right {
-  margin-right: 0.5em;
+.tbds-button__icon--end {
+  margin-inline-start: 0.5em;
 }

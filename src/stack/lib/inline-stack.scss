@@ -30,10 +30,10 @@
 }
 
 .tbds-inline-stack__item:not(:last-child) {
-  margin-right: calc(var(--gap) / 2);
-  padding-right: calc(var(--gap) / 2);
+  margin-inline-end: calc(var(--gap) / 2);
+  padding-inline-end: calc(var(--gap) / 2);
 }
 
 .tbds-inline-stack__item--push-start {
-  margin-left: auto;
+  margin-inline-start: auto;
 }

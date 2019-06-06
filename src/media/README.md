@@ -20,10 +20,10 @@
 </div>
 ```
 
-### Vertically-centered
+### Block-centered
 
 ```html
-<div class="tbds-media tbds-media--vertical-center">
+<div class="tbds-media tbds-media--block-center">
   <div class="tbds-media__figure">
     <img src="image.jpg" alt="alternative text">
   </div>
