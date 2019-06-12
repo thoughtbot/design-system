@@ -21,3 +21,11 @@ Coming soon.
 ## Typography variables
 
 Coming soon.
+
+## Breakpoints
+
+| Breakpoint | Variable                  | Value  |
+| ---------- | ------------------------- | ------ |
+| `small`    | `$tbds-breakpoint-small`  | `32em` |
+| `medium`   | `$tbds-breakpoint-medium` | `50em` |
+| `large`    | `$tbds-breakpoint-large`  | `72em` |
