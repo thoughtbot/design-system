@@ -42,6 +42,40 @@ Each variant's styles are applied at the breakpoint and up (using a
 </div>
 ```
 
+### Width utilities
+
+Width utilities can be used to set the `width` on element, and are available
+with the following values (quarters, thirds, and fifths):
+
+- `20%`
+- `25%`
+- `33.3333%`
+- `40%`
+- `50%`
+- `60%`
+- `66.6666%`
+- `75%`
+- `80%`
+- `100%`
+
+```html
+<div class="tbds-width-25%">
+  Some content
+</div>
+```
+
+#### Breakpoint variants
+
+Width utilities can also be used to set `width` at specific breakpoints.
+Each variant's styles are applied at the breakpoint and up (using a
+`min-width` media query).
+
+```html
+<div class="tbds-width-50%@medium">
+  Some content
+</div>
+```
+
 ### Typography utilities
 
 ```html
