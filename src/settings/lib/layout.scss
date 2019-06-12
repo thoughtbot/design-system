@@ -1,19 +1,19 @@
 $tbds-base-space-value: 8px !default;
 
 $tbds-space-values: (
-  0,
-  $tbds-base-space-value / 2,
-  $tbds-base-space-value,
-  $tbds-base-space-value * 2,
-  $tbds-base-space-value * 3,
-  $tbds-base-space-value * 4,
-  $tbds-base-space-value * 5,
+  "0": 0,
+  "1": $tbds-base-space-value / 2,
+  "2": $tbds-base-space-value,
+  "3": $tbds-base-space-value * 2,
+  "4": $tbds-base-space-value * 3,
+  "5": $tbds-base-space-value * 4,
+  "6": $tbds-base-space-value * 5,
 ) !default;
 
-$tbds-space-0: nth($tbds-space-values, 1) !default;
-$tbds-space-1: nth($tbds-space-values, 2) !default;
-$tbds-space-2: nth($tbds-space-values, 3) !default;
-$tbds-space-3: nth($tbds-space-values, 4) !default;
-$tbds-space-4: nth($tbds-space-values, 5) !default;
-$tbds-space-5: nth($tbds-space-values, 6) !default;
-$tbds-space-6: nth($tbds-space-values, 7) !default;
+$tbds-space-0: map-get($tbds-space-values, "0") !default;
+$tbds-space-1: map-get($tbds-space-values, "1") !default;
+$tbds-space-2: map-get($tbds-space-values, "2") !default;
+$tbds-space-3: map-get($tbds-space-values, "3") !default;
+$tbds-space-4: map-get($tbds-space-values, "4") !default;
+$tbds-space-5: map-get($tbds-space-values, "5") !default;
+$tbds-space-6: map-get($tbds-space-values, "6") !default;

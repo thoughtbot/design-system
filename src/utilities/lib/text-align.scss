@@ -1,14 +1,13 @@
-.tbds-text-align-right {
-  /* stylelint-disable-next-line declaration-no-important */
-  text-align: right !important;
-}
+$_tbds-text-align-values: (
+  "left",
+  "center",
+  "right",
+) !default;
 
-.tbds-text-align-left {
-  /* stylelint-disable-next-line declaration-no-important */
-  text-align: left !important;
-}
-
-.tbds-text-align-center {
-  /* stylelint-disable-next-line declaration-no-important */
-  text-align: center !important;
+@each $text-align-value in $_tbds-text-align-values {
+  @include tbds-generate-breakpoint-classes(
+    $property: "text-align",
+    $value: $text-align-value,
+    $variant: $text-align-value,
+  );
 }

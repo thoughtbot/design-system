@@ -8,6 +8,9 @@ project adheres to [Semantic Versioning](http://semver.org).
 ### Added
 
 - Added the `tbds-line-height-0` utility class.
+- Added breakpoint variants for the `margin`, `padding`, and `text-align`
+  utility classes, e.g. `tbds-margin-right-4@medium`
+  and `tbds-text-align-right@large`.
 
 ### Changed
 

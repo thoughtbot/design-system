@@ -10,10 +10,34 @@
 </div>
 ```
 
+#### Breakpoint variants
+
+Margin utilities can also be used to set `margin` at specific breakpoints.
+Each variant's styles are applied at the breakpoint and up (using a
+`min-width` media query).
+
+```html
+<div class="tbds-margin-right-4@medium">
+  Some content
+</div>
+```
+
 ### Padding utilities
 
 ```html
 <div class="tbds-padding-bottom-1">
+  Some content
+</div>
+```
+
+#### Breakpoint variants
+
+Padding utilities can also be used to set `padding` at specific breakpoints.
+Each variant's styles are applied at the breakpoint and up (using a
+`min-width` media query).
+
+```html
+<div class="tbds-padding-bottom-1@small">
   Some content
 </div>
 ```
@@ -60,6 +84,18 @@
 <p class="tbds-text-align-center">
   Center-align text
 </p>
+```
+
+#### Breakpoint variants
+
+Typography utilities can also be used to set styles at specific breakpoints.
+Each variant's styles are applied at the breakpoint and up (using a
+`min-width` media query).
+
+```html
+<div class="tbds-text-align-right@large">
+  Some content
+</div>
 ```
 
 ### Line height utilities

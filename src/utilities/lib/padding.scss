@@ -5,16 +5,12 @@ $_tbds-padding-properties: (
   "padding-left",
 ) !default;
 
-@for $i from 1 through length($tbds-space-values) {
-  $size: #{nth($tbds-space-values, $i)};
-  $scale: #{$i - 1};
-
-  @for $property from 1 through length($_tbds-padding-properties) {
-    $property: #{nth($_tbds-padding-properties, $property)};
-
-    .tbds-#{$property}-#{$scale} {
-      /* stylelint-disable-next-line declaration-no-important */
-      #{$property}: $size !important;
-    }
+@each $padding-property in $_tbds-padding-properties {
+  @each $space-increment, $space-value in $tbds-space-values {
+    @include tbds-generate-breakpoint-classes(
+      $property: $padding-property,
+      $value: $space-value,
+      $variant: $space-increment,
+    );
   }
 }
