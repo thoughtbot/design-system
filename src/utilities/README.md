@@ -2,7 +2,15 @@
 
 ## Usage
 
-### Margin utilities
+### Margin
+
+Margin utilities are based on the global spacing scale and available
+for each of these margin properties:
+
+- `margin-top`
+- `margin-right`
+- `margin-bottom`
+- `margin-left`
 
 ```html
 <div class="tbds-margin-top-2">
@@ -22,7 +30,15 @@ Each variant's styles are applied at the breakpoint and up (using a
 </div>
 ```
 
-### Padding utilities
+### Padding
+
+Padding utilities are based on the global spacing scale and available
+for each of these padding properties:
+
+- `padding-top`
+- `padding-right`
+- `padding-bottom`
+- `padding-left`
 
 ```html
 <div class="tbds-padding-bottom-1">
@@ -42,7 +58,7 @@ Each variant's styles are applied at the breakpoint and up (using a
 </div>
 ```
 
-### Width utilities
+### Width
 
 Width utilities can be used to set the `width` on element, and are available
 with the following values (quarters, thirds, and fifths):
@@ -76,7 +92,7 @@ Each variant's styles are applied at the breakpoint and up (using a
 </div>
 ```
 
-### Typography utilities
+### Font weight
 
 ```html
 <p class="tbds-font-weight-normal">
@@ -90,6 +106,8 @@ Each variant's styles are applied at the breakpoint and up (using a
 </p>
 ```
 
+### Font style
+
 ```html
 <p class="tbds-font-style-normal">
   Style text normal
@@ -101,6 +119,8 @@ Each variant's styles are applied at the breakpoint and up (using a
   Style text italicized
 </p>
 ```
+
+### Text align
 
 ```html
 <p class="tbds-text-align-right">
@@ -122,7 +142,7 @@ Each variant's styles are applied at the breakpoint and up (using a
 
 #### Breakpoint variants
 
-Typography utilities can also be used to set styles at specific breakpoints.
+Text align utilities can also be used to set styles at specific breakpoints.
 Each variant's styles are applied at the breakpoint and up (using a
 `min-width` media query).
 
@@ -132,7 +152,7 @@ Each variant's styles are applied at the breakpoint and up (using a
 </div>
 ```
 
-### Line height utilities
+### Line height
 
 Set `line-height` to `0` to remove extra space from elements that inherit
 `line-height` but don't contain any text.

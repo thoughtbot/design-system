@@ -20,7 +20,11 @@ Coming soon.
 
 ## Typography variables
 
-Coming soon.
+| Variable                   | Value                                                                                                  |
+| -------------------------- | ------------------------------------------------------------------------------------------------------ |
+| `$tbds-font-sans-serif`    | `-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif` |
+| `$tbds-font-weight-normal` | `400`                                                                                                  |
+| `$tbds-font-weight-bold`   | `700`                                                                                                  |
 
 ## Breakpoints
 
