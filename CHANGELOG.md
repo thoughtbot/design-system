@@ -11,6 +11,21 @@ project adheres to [Semantic Versioning](http://semver.org).
 - Added breakpoint variants for the `margin`, `padding`, and `text-align`
   utility classes, e.g. `tbds-margin-right-4@medium`
   and `tbds-text-align-right@large`.
+- Added `width` utility classes (e.g. `tbds-width-25%`) for the
+  following lengths:
+
+    - `20%`
+    - `25%`
+    - `33.3333%`
+    - `40%`
+    - `50%`
+    - `60%`
+    - `66.6666%`
+    - `75%`
+    - `80%`
+    - `100%`
+
+    Breakpoint-based variants are also available (e.g. `tbds-width-25%@medium`).
 
 ### Changed
 
