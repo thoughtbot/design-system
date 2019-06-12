@@ -14,7 +14,7 @@ project adheres to [Semantic Versioning](http://semver.org).
 - `tbds-app-frame__body--vertical-middle` was renamed to
   `tbds-app-frame__body--center-items`
 
-## Fixed
+### Fixed
 
 - Fixed button icon alignment.
 
