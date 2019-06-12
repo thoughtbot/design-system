@@ -1,6 +1,5 @@
-$_tbds-block-stack-border: 1px solid #bbb !default;
-
 .tbds-block-stack {
+  --border: 1px solid #bbb;
   --gap: #{$tbds-space-2};
 }
 
@@ -35,6 +34,6 @@ $_tbds-block-stack-border: 1px solid #bbb !default;
 
 .tbds-block-stack--bordered {
   .tbds-block-stack__item:not(:last-child) {
-    border-block-end: $_tbds-block-stack-border;
+    border-block-end: var(--border);
   }
 }

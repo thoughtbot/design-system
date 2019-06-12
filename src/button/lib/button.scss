@@ -1,26 +1,26 @@
-$_tbds-button-background-color: $tbds-brand-red !default;
-$_tbds-button-background-color-hover: darken($_tbds-button-background-color, 10%) !default;
-$_tbds-button-border: 0 !default;
-$_tbds-button-border-radius: 5px !default;
-$_tbds-button-font-family: $tbds-font-sans-serif !default;
-$_tbds-button-font-size: 16px !default;
-$_tbds-button-font-weight: $tbds-font-weight-bold !default;
-$_tbds-button-text-color: #fff !default;
-$_tbds-button-text-color-hover: #fff !default;
-
 .tbds-button {
+  --background-color: #{$tbds-brand-red};
+  --background-color-hover: #{$tbds-brand-red-dark};
+  --border: 0;
+  --border-radius: 5px;
+  --font-family: #{$tbds-font-sans-serif};
+  --font-size: 16px;
+  --font-weight: #{$tbds-font-weight-bold};
+  --text-color: #fff;
+  --text-color-hover: #fff;
+
   align-items: center;
   appearance: none;
-  background-color: $_tbds-button-background-color;
-  border: $_tbds-button-border;
-  border-radius: $_tbds-button-border-radius;
-  color: $_tbds-button-text-color;
+  background-color: var(--background-color);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  color: var(--text-color);
   cursor: pointer;
   display: inline-flex;
-  font-family: $_tbds-button-font-family;
-  font-size: $_tbds-button-font-size;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
   -webkit-font-smoothing: antialiased;
-  font-weight: $_tbds-button-font-weight;
+  font-weight: var(--font-weight);
   justify-content: center;
   line-height: 1;
   padding: 0.75em 1.5em;
@@ -31,8 +31,8 @@ $_tbds-button-text-color-hover: #fff !default;
   white-space: nowrap;
 
   &:hover {
-    background-color: $_tbds-button-background-color-hover;
-    color: $_tbds-button-text-color-hover;
+    background-color: var(--background-color-hover);
+    color: var(--text-color-hover);
   }
 
   &:focus {
@@ -45,7 +45,7 @@ $_tbds-button-text-color-hover: #fff !default;
     opacity: 0.5;
 
     &:hover {
-      background-color: $_tbds-button-background-color;
+      background-color: var(--background-color);
     }
   }
 }
@@ -55,9 +55,11 @@ $_tbds-button-text-color-hover: #fff !default;
 }
 
 .tbds-button__icon {
-  block-size: 1em;
+  --icon-size: 1em;
+
+  block-size: var(--icon-size);
   fill: currentColor;
-  inline-size: 1em;
+  inline-size: var(--icon-size);
 }
 
 .tbds-button__icon--start {
