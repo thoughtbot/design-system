@@ -5,6 +5,10 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
+[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.3.0...HEAD
+
+## [0.3.0] - 2019-06-19
+
 ### Added
 
 - Added the `tbds-line-height-0` utility class.
@@ -61,7 +65,7 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 - Fixed button icon alignment.
 
-[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.2.0...HEAD
+[0.3.0]: https://github.com/thoughtbot/design-system/compare/v0.2.0...v0.3.0
 
 ## [0.2.0] - 2019-05-10
 
