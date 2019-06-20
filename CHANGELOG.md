@@ -5,10 +5,15 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
-[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.3.0...HEAD
+### Added
+
+- Added `$tbds-control-block-size` to set controls (text inputs and buttons) to
+  the same block size.
 
 ### Changed
 
+- When using `tbds-form` elements (e.g. `tbds-form__text-input`), you now must
+  ensure that the parent `<form>` has the `tbds-form` class.
 - The `--border-radius` custom property in the `tbds-avatar` component was
   renamed to `--tbds-border-radius`.
 - The `--size` custom property in the `tbds-avatar` component was
@@ -19,6 +24,8 @@ project adheres to [Semantic Versioning](http://semver.org).
   renamed to `--tbds-block-stack-gap`.
 - The `--gap` custom property in the `tbds-inline-stack` component was
   renamed to `--tbds-inline-stack-gap`.
+
+[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.3.0...HEAD
 
 ## [0.3.0] - 2019-06-19
 
