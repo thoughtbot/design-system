@@ -9,14 +9,14 @@ items laid out horizontally).
 Both `tbds-block-stack` and `tbds-inline-stack` come with modifier classes to
 control the gap size between the items:
 
-| Gap modifier | Space value     | Value  |
-| ------------ | --------------- | ------ |
-| `gap-1`      | `$tbds-space-1` | `4px` |
-| `gap-2`      | `$tbds-space-2` | `8px` |
-| `gap-3`      | `$tbds-space-3` | `16px` |
-| `gap-4`      | `$tbds-space-4` | `24px` |
-| `gap-5`      | `$tbds-space-5` | `32px` |
-| `gap-6`      | `$tbds-space-6` | `40px` |
+| Gap modifier | Space value     | Value     |
+| ------------ | --------------- | --------- |
+| `gap-1`      | `$tbds-space-1` | `0.25rem` |
+| `gap-2`      | `$tbds-space-2` | `0.5rem`  |
+| `gap-3`      | `$tbds-space-3` | `1rem`    |
+| `gap-4`      | `$tbds-space-4` | `1.5rem`  |
+| `gap-5`      | `$tbds-space-5` | `2rem`    |
+| `gap-6`      | `$tbds-space-6` | `2.5rem`  |
 
 View prototypes on CodePen:
 

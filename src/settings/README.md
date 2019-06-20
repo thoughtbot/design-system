@@ -4,15 +4,15 @@
 
 ## Layout variables
 
-| Variable        | Scale | Value   |
-| --------------- | ----- | ------- |
-| `$tbds-space-0` | 0     | `0`     |
-| `$tbds-space-1` | 1     | `4px`   |
-| `$tbds-space-2` | 2     | `8px`   |
-| `$tbds-space-3` | 3     | `16px`  |
-| `$tbds-space-4` | 4     | `24px`  |
-| `$tbds-space-5` | 5     | `32px`  |
-| `$tbds-space-6` | 6     | `40px`  |
+| Variable        | Scale | Value     |
+| --------------- | ----- | --------- |
+| `$tbds-space-0` | 0     | `0`       |
+| `$tbds-space-1` | 1     | `0.25rem` |
+| `$tbds-space-2` | 2     | `0.5rem`  |
+| `$tbds-space-3` | 3     | `1rem`    |
+| `$tbds-space-4` | 4     | `1.5rem`  |
+| `$tbds-space-5` | 5     | `2rem`    |
+| `$tbds-space-6` | 6     | `2.5rem`  |
 
 ## Color palette variables
 
