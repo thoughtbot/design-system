@@ -7,7 +7,7 @@
 ### Default
 
 ```html
-<form class="tbds-block-stack tbds-block-stack--gap-4">
+<form class="tbds-form tbds-block-stack tbds-block-stack--gap-4">
   <div class="tbds-block-stack__item">
     <label class="tbds-form__label" for="full-name-1">
       Full name
