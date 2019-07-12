@@ -36,7 +36,7 @@ $_tbds-button-text-color-hover: #fff !default;
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px #fff, 0 0 0 4px $tbds-focus-outline-color;
+    box-shadow: 0 0 0 2px var(--tbds-color-viewport-background), 0 0 0 4px $tbds-focus-outline-color;
     outline: none;
   }
 

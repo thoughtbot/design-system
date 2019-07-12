@@ -5,7 +5,7 @@
 }
 
 .tbds-form__help-text {
-  color: #666;
+  color: var(--tbds-color-text-secondary);
   font-weight: $tbds-font-weight-normal;
 }
 
@@ -16,9 +16,10 @@
 
 .tbds-form__text-input {
   appearance: none;
-  background-color: #fff;
+  background-color: var(--tbds-color-input-background);
   border: 1px solid #888;
   border-radius: 4px;
+  color: var(--tbds-color-text-default);
   font-size: 16px;
   inline-size: 100%;
   margin: 0;
@@ -33,13 +34,18 @@
     box-shadow: 0 0 0 1px $tbds-brand-blue;
     outline: none;
   }
+
+  &::placeholder {
+    color: var(--tbds-color-text-default);
+  }
 }
 
 .tbds-form__textarea {
   appearance: none;
-  background-color: #fff;
+  background-color: var(--tbds-color-input-background);
   border: 1px solid #888;
   border-radius: 4px;
+  color: var(--tbds-color-text-default);
   font-size: 16px;
   inline-size: 100%;
   line-height: 1.4;

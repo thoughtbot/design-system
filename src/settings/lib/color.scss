@@ -3,3 +3,23 @@
 $tbds-color-text-default: $tbds-brand-gray !default;
 $tbds-color-text-link: $tbds-color-text-default !default;
 $tbds-color-text-link-hover: $tbds-brand-red !default;
+
+html {
+  --tbds-color-viewport-background: #fafafa;
+  --tbds-color-text-default: #{$tbds-brand-gray};
+  --tbds-color-text-secondary: #{$tbds-gray-900};
+  --tbds-color-text-link: #{$tbds-brand-gray};
+  --tbds-color-text-link-hover: #{$tbds-brand-red};
+  --tbds-color-border-default: rgba(150, 150, 150, 0.2);
+  --tbds-color-input-background: rgba(150, 150, 150, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --tbds-color-viewport-background: #222;
+    --tbds-color-text-default: #d5d5d5;
+    --tbds-color-text-secondary: #{$tbds-gray-100};
+    --tbds-color-text-link: var(--tbds-color-text-default);
+    --tbds-color-text-link-hover: #{$tbds-brand-red};
+  }
+}
