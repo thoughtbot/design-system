@@ -9,8 +9,11 @@ $tbds-warn-yellow: #fbf1a9 !default;
 $tbds-failure-red: #ffcfcf !default;
 $tbds-danger-red: $tbds-failure-red !default;
 
+$tbds-color-white: #fff !default;
+$tbds-color-black: #000 !default;
+
 $tbds-color-gray-900: #111 !default;
-$tbds-color-gray-800: #333 !default;
+$tbds-color-gray-800: $tbds-color-brand-gray !default;
 $tbds-color-gray-700: #555 !default;
 $tbds-color-gray-600: #777 !default;
 $tbds-color-gray-500: #999 !default;
