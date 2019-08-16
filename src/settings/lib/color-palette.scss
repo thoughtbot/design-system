@@ -2,22 +2,21 @@ $tbds-color-brand-red: #e03131 !default;
 $tbds-color-brand-gray: #29292c !default;
 $tbds-color-brand-blue: #0b758c !default;
 
-$tbds-default-gray: #d4e1e4 !default;
-$tbds-info-blue: #cdecff !default;
-$tbds-success-green: #9eebcf !default;
-$tbds-warn-yellow: #fbf1a9 !default;
-$tbds-failure-red: #ffcfcf !default;
-$tbds-danger-red: $tbds-failure-red !default;
+$tbds-color-info-blue: #cdecff !default;
+$tbds-color-success-green: #9eebcf !default;
+$tbds-color-warn-yellow: #fbf1a9 !default;
+$tbds-color-failure-red: #ffcfcf !default;
+$tbds-color-danger-red: $tbds-color-failure-red !default;
 
 $tbds-color-white: #fff !default;
 $tbds-color-black: #000 !default;
 
-$tbds-color-gray-900: #111 !default;
+$tbds-color-gray-900: #131314 !default;
 $tbds-color-gray-800: $tbds-color-brand-gray !default;
-$tbds-color-gray-700: #555 !default;
-$tbds-color-gray-600: #777 !default;
-$tbds-color-gray-500: #999 !default;
-$tbds-color-gray-400: #aaa !default;
-$tbds-color-gray-300: $tbds-default-gray !default;
-$tbds-color-gray-200: #eee !default;
+$tbds-color-gray-700: #4f4f52 !default;
+$tbds-color-gray-600: #767678 !default;
+$tbds-color-gray-500: #9d9d9f !default;
+$tbds-color-gray-400: #ababac !default;
+$tbds-color-gray-300: #c4c4c5 !default;
+$tbds-color-gray-200: #ebebec !default;
 $tbds-color-gray-100: #fafafa !default;
