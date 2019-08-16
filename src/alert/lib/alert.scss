@@ -13,7 +13,7 @@
 }
 
 .tbds-alert--drop-in {
-  animation: drop 1s ease;
+  animation: tbds-drop-in 1s ease;
 }
 
 .tbds-alert--full-bleed {
@@ -56,11 +56,11 @@
 }
 
 .tbds-alert--dark {
-  background-color: $tbds-brand-gray;
+  background-color: $tbds-color-gray-300;
   color: #fff;
 }
 
-@keyframes drop {
+@keyframes tbds-drop-in {
   0% {
     box-shadow: 0 40px 30px rgba(#000, 0.2);
     transform: translateY(-100%);
