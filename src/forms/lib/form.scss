@@ -5,7 +5,7 @@
 }
 
 .tbds-form__help-text {
-  color: #666;
+  color: var(--tbds-color-text-secondary);
   font-weight: $tbds-font-weight-normal;
 }
 
@@ -16,9 +16,10 @@
 
 .tbds-form__text-input {
   appearance: none;
-  background-color: #fff;
-  border: 1px solid #888;
+  background-color: var(--tbds-color-input-background);
+  border: 1px solid var(--tbds-color-border-default);
   border-radius: 4px;
+  color: var(--tbds-color-text-default);
   font-size: 16px;
   inline-size: 100%;
   margin: 0;
@@ -29,17 +30,22 @@
   }
 
   &:focus {
-    border-color: $tbds-brand-blue;
-    box-shadow: 0 0 0 1px $tbds-brand-blue;
+    border-color: var(--tbds-color-focus-outline);
+    box-shadow: 0 0 0 1px var(--tbds-color-focus-outline);
     outline: none;
+  }
+
+  &::placeholder {
+    color: var(--tbds-color-text-secondary);
   }
 }
 
 .tbds-form__textarea {
   appearance: none;
-  background-color: #fff;
-  border: 1px solid #888;
+  background-color: var(--tbds-color-input-background);
+  border: 1px solid var(--tbds-color-border-default);
   border-radius: 4px;
+  color: var(--tbds-color-text-default);
   font-size: 16px;
   inline-size: 100%;
   line-height: 1.4;
@@ -53,9 +59,13 @@
   }
 
   &:focus {
-    border-color: $tbds-brand-blue;
-    box-shadow: 0 0 0 1px $tbds-brand-blue;
+    border-color: var(--tbds-color-focus-outline);
+    box-shadow: 0 0 0 1px var(--tbds-color-focus-outline);
     outline: none;
+  }
+
+  &::placeholder {
+    color: var(--tbds-color-text-secondary);
   }
 }
 
