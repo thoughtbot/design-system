@@ -7,6 +7,19 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 [unreleased]: https://github.com/thoughtbot/design-system/compare/v0.3.0...HEAD
 
+### Changed
+
+- The `--border-radius` custom property in the `tbds-avatar` component was
+  renamed to `--tbds-border-radius`.
+- The `--size` custom property in the `tbds-avatar` component was
+  renamed to `--tbds-size`.
+- The `--size` custom property in the `tbds-icon` component was
+  renamed to `--tbds-icon-size`.
+- The `--gap` custom property in the `tbds-block-stack` component was
+  renamed to `--tbds-block-stack-gap`.
+- The `--gap` custom property in the `tbds-inline-stack` component was
+  renamed to `--tbds-inline-stack-gap`.
+
 ## [0.3.0] - 2019-06-19
 
 ### Added
