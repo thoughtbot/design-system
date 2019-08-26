@@ -1,4 +1,4 @@
-/* stylelint-disable declaration-no-important */
+// stylelint-disable declaration-no-important
 
 @mixin tbds-generate-breakpoint-classes(
   $property,
@@ -18,4 +18,4 @@
   }
 }
 
-/* stylelint-enable */
+// stylelint-enable
