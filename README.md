@@ -1,6 +1,15 @@
 # thoughtbot design system (tbds)
 
-thoughtbot design system for thoughtbot websites.
+A design system for thoughtbot websites.
+
+## Purpose
+
+The purpose of the thoughtbot design system is to…
+
+- Learn about design systems so that we establish our skillset in the space
+  and provide services to our clients.
+- Support our internal and external websites and set a minimum standard of
+  design, accessibility, maintainability, and quality.
 
 ## Applications using tbds
 
