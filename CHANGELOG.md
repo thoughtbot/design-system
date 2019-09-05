@@ -9,6 +9,7 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 - Added `$tbds-control-block-size` to set controls (text inputs and buttons) to
   the same block size.
+- Margin utilities now include `auto` (e.g. `tbds-margin-inline-auto`).
 
 ### Changed
 

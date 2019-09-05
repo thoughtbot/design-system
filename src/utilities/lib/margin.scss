@@ -16,3 +16,10 @@ $_tbds-margin-properties: (
     );
   }
 }
+
+@each $margin-property in $_tbds-margin-properties {
+  .tbds-#{$margin-property}-auto {
+    // stylelint-disable-next-line declaration-no-important
+    #{$margin-property}: auto !important;
+  }
+}

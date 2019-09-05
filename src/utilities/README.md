@@ -32,6 +32,18 @@ Each variant's styles are applied at the breakpoint and up (using a
 </div>
 ```
 
+#### `auto`
+
+The `auto` keyword value is also available as utility classes for the margin
+properties above. Note that breakpoint variants are not supported in
+this context.
+
+```html
+<div class="tbds-margin-inline-auto">
+  Some content
+</div>
+```
+
 ### Padding
 
 Padding utilities are based on the global spacing scale and available
