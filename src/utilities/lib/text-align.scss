@@ -6,8 +6,9 @@ $_tbds-text-align-values: (
 
 @each $text-align-value in $_tbds-text-align-values {
   @include tbds-generate-breakpoint-classes(
+    $selector: "tbds-text-align-" + $text-align-value,
     $property: "text-align",
     $value: $text-align-value,
-    $variant: $text-align-value,
+    $important: true,
   );
 }
