@@ -5,6 +5,12 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
+Nothing at the moment.
+
+[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.4.0...HEAD
+
+## [0.4.0] - 2019-09-09
+
 ### Added
 
 - Added `$tbds-control-block-size` to set controls (text inputs and buttons) to
@@ -26,7 +32,7 @@ project adheres to [Semantic Versioning](http://semver.org).
 - The `--gap` custom property in the `tbds-inline-stack` component was
   renamed to `--tbds-inline-stack-gap`.
 
-[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.3.0...HEAD
+[0.4.0]: https://github.com/thoughtbot/design-system/compare/v0.3.0...v0.4.0
 
 ## [0.3.0] - 2019-06-19
 
