@@ -1,22 +1,22 @@
 .tbds-avatar {
-  --tbds-border-radius: 3px;
-  --tbds-size: 3rem;
+  --tbds-avatar-border-radius: 3px;
+  --tbds-avatar-size: 3rem;
 
-  block-size: var(--tbds-size);
-  border-radius: var(--tbds-border-radius);
+  block-size: var(--tbds-avatar-size);
+  border-radius: var(--tbds-avatar-border-radius);
   display: inline-block;
-  inline-size: var(--tbds-size);
+  inline-size: var(--tbds-avatar-size);
   object-fit: cover;
 }
 
 .tbds-avatar--circle {
-  --tbds-border-radius: 100%;
+  --tbds-avatar-border-radius: 100%;
 }
 
 .tbds-avatar--small {
-  --tbds-size: 2rem;
+  --tbds-avatar-size: 2rem;
 }
 
 .tbds-avatar--large {
-  --tbds-size: 4rem;
+  --tbds-avatar-size: 4rem;
 }

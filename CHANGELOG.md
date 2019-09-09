@@ -16,9 +16,9 @@ project adheres to [Semantic Versioning](http://semver.org).
 - When using `tbds-form` elements (e.g. `tbds-form__text-input`), you now must
   ensure that the parent `<form>` has the `tbds-form` class.
 - The `--border-radius` custom property in the `tbds-avatar` component was
-  renamed to `--tbds-border-radius`.
+  renamed to `--tbds-avatar-border-radius`.
 - The `--size` custom property in the `tbds-avatar` component was
-  renamed to `--tbds-size`.
+  renamed to `--tbds-avatar-size`.
 - The `--size` custom property in the `tbds-icon` component was
   renamed to `--tbds-icon-size`.
 - The `--gap` custom property in the `tbds-block-stack` component was
