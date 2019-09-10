@@ -10,8 +10,4 @@ html {
 
 img {
   max-inline-size: 100%;
-
-  @media (inverted-colors: inverted) {
-    filter: invert(100%);
-  }
 }
