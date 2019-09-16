@@ -15,7 +15,7 @@ Skip links should also be placed as high up in the document source order as poss
 ### Default
 
 ```html
-<a class="tbds-skip-link tbds-visibility-at-only" href="#title">
+<a class="tbds-skip-link" href="#title">
   Skip to main content
 </a>
 ```
