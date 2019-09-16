@@ -1,0 +1,6 @@
+img,
+video {
+  @media (inverted-colors: inverted) {
+    filter: invert(100%);
+  }
+}
