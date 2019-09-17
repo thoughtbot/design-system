@@ -30,6 +30,7 @@ $_tbds-skip-link-y-offset: 1em !default;
     font-size: $_tbds-skip-link-font-size;
     font-weight: $_tbds-skip-link-font-weight;
     height: initial;
+    // stylelint-disable-next-line csstools/use-logical
     left: $_tbds-skip-link-x-offset;
     margin: initial;
     overflow: hidden;
