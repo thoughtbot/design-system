@@ -39,7 +39,7 @@ $_tbds-skip-link-y-offset: 1em !default;
     white-space: normal;
     width: auto;
 
-    @supports (inset: 1em 1em auto auto) {
+    @supports (inset: 1em) {
       inset: $_tbds-skip-link-x-offset auto auto $_tbds-skip-link-y-offset;
     }
   }
