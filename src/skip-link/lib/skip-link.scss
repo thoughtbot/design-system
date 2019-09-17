@@ -1,0 +1,47 @@
+$_tbds-skip-link-background-color: $tbds-brand-red !default;
+$_tbds-skip-link-border: 0 !default;
+$_tbds-skip-link-border-radius: 5px !default;
+$_tbds-skip-link-font-family: $tbds-font-sans-serif !default;
+$_tbds-skip-link-font-size: 16px !default;
+$_tbds-skip-link-font-weight: $tbds-font-weight-bold !default;
+$_tbds-skip-link-text-color: #fff !default;
+$_tbds-skip-link-x-offset: 1em !default;
+$_tbds-skip-link-y-offset: 1em !default;
+
+.tbds-skip-link {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+
+  &:active,
+  &:focus {
+    background-color: $_tbds-skip-link-background-color;
+    border: $_tbds-skip-link-border;
+    border-radius: $_tbds-skip-link-border-radius;
+    clip: initial;
+    color: $_tbds-skip-link-text-color;
+    font-family: $_tbds-skip-link-font-family;
+    font-size: $_tbds-skip-link-font-size;
+    font-weight: $_tbds-skip-link-font-weight;
+    height: initial;
+    // stylelint-disable-next-line csstools/use-logical
+    left: $_tbds-skip-link-x-offset;
+    margin: initial;
+    overflow: hidden;
+    padding: 0.75em 1.5em;
+    position: absolute;
+    top: $_tbds-skip-link-y-offset;
+    white-space: normal;
+    width: auto;
+
+    @supports (inset: 1em) {
+      inset: $_tbds-skip-link-x-offset auto auto $_tbds-skip-link-y-offset;
+    }
+  }
+}
