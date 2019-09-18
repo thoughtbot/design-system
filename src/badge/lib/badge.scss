@@ -15,20 +15,3 @@ $_tbds-badge-color: $tbds-brand-gray !default;
   vertical-align: baseline;
   white-space: nowrap;
 }
-
-a.tbds-badge,
-button.tbds-badge {
-  &:hover,
-  &:focus {
-    text-decoration: none;
-  }
-}
-
-.tbds-badge--pill {
-  border-radius: $_tbds-badge-font-size;
-}
-
-.tbds-badge--hollow {
-  background-color: transparent;
-  border: 1px solid $_tbds-badge-background-color;
-}
