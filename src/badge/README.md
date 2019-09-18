@@ -1,5 +1,13 @@
 # Badge
 
+Badges contain small amounts of information that help provide additional 
+context for a larger piece of content. Context could be describing the 
+content's state, status, or other pertinent meta-information. 
+
+An example of a badge could be a count for updates, or a status of "new". 
+Badges are not to be confused with tags or input labels. Tags and input labels
+could contain badges, however.
+
 [View prototype on CodePen][codepen].
 
 [codepen]: https://codepen.io/thoughtbot/pen/ZEzROvy
@@ -12,31 +20,13 @@
 <span class="tbds-badge">Badge Label</span>
 ```
 
-### Pill Badge
-
-```html
-<span class="tbds-badge tbds-badge--pill">Pill Badge</span>
-```
-
-### Hollow Badge
-
-```html
-<span class="tbds-badge tbds-badge--hollow">Hollow Badge</span>
-```
-
-### Link Badge
-
 ```html
 <a href="#" class="tbds-badge">Link Badge</a>
 ```
 
-### Button Badge
-
 ```html
-<button href="#" class="tbds-badge">Button Badge</button>
+<button type="button" class="tbds-badge">Button Badge</button>
 ```
-
-### Badge with text-level formatting
 
 ```html
 <span class="tbds-badge">Badge with <strong>text-level formatting</strong></span>
