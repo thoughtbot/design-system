@@ -1,0 +1,17 @@
+$_tbds-badge-font-size: 0.8em !default;
+$_tbds-badge-background-color: #f5f5f5 !default;
+$_tbds-badge-color: $tbds-brand-gray !default;
+
+.tbds-badge {
+  background-color: $_tbds-badge-background-color;
+  border: 0;
+  border-radius: $_tbds-badge-font-size;
+  color: $_tbds-badge-color;
+  display: inline-block;
+  font-size: $_tbds-badge-font-size;
+  font-weight: normal;
+  line-height: 1;
+  padding: 0.25em 0.75em;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
