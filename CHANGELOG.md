@@ -7,7 +7,17 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 Nothing at the moment.
 
-[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.4.0...HEAD
+[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.5.0...HEAD
+
+## [0.5.0] - 2019-09-19
+
+### Added
+
+- Added a Badge component
+- Added a Skip link component
+- Added support for media in inverted color mode
+
+[0.5.0]: https://github.com/thoughtbot/design-system/compare/v0.4.0...v0.5.0
 
 ## [0.4.0] - 2019-09-09
 
