@@ -18,11 +18,13 @@ a {
 
   &:hover {
     color: $tbds-color-text-link-hover;
+    text-decoration: none;
   }
 
   &:focus {
     outline: $tbds-focus-outline;
     outline-offset: $tbds-focus-outline-offset;
+    text-decoration: none;
   }
 }
 
