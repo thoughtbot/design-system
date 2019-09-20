@@ -3,13 +3,8 @@ require "tbds/version"
 
 Gem::Specification.new do |s|
   s.add_dependency "rails", Tbds::RAILS_VERSION
-  s.add_dependency "sass", "~> 3.4", ">= 3.4.22"
-  s.add_development_dependency "css_parser", "~> 1.4"
-  s.add_development_dependency "pry", "~> 0.12.2"
   s.add_development_dependency "rake", "~> 11.1"
   s.add_development_dependency "rspec", "~> 3.4"
-  s.add_development_dependency "sass", "~> 3.4", ">= 3.4.22"
-  s.add_runtime_dependency "thor", "~> 0.19"
   s.authors = [
     "Tyson Gach",
     "Steven Neamonitakis",

@@ -1,5 +1,3 @@
-require "tbds/generator"
-
 module Tbds
   require "tbds/railtie"
   class Engine < ::Rails::Engine
