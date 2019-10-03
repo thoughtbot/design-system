@@ -1,3 +1,8 @@
+.tbds-form {
+  --tbds-form-block-size: #{$tbds-control-block-size};
+  --tbds-form-padding-inline: 0.5rem;
+}
+
 .tbds-form__label {
   display: block;
   font-weight: $tbds-font-weight-bold;
@@ -17,16 +22,18 @@
 .tbds-form__text-input {
   appearance: none;
   background-color: var(--tbds-color-input-background);
+  block-size: var(--tbds-form-block-size);
   border: 1px solid var(--tbds-color-border-default);
   border-radius: 4px;
   color: var(--tbds-color-text-default);
   font-size: 16px;
   inline-size: 100%;
   margin: 0;
-  padding: 0.5rem 0.8rem;
+  padding-inline-end: var(--tbds-form-padding-inline);
+  padding-inline-start: var(--tbds-form-padding-inline);
 
   @supports (padding-inline: 0) {
-    padding-inline: 0.5rem;
+    padding-inline: var(--tbds-form-padding-inline);
   }
 
   &:focus {
@@ -43,6 +50,7 @@
 .tbds-form__textarea {
   appearance: none;
   background-color: var(--tbds-color-input-background);
+  block-size: auto;
   border: 1px solid var(--tbds-color-border-default);
   border-radius: 4px;
   color: var(--tbds-color-text-default);
@@ -50,8 +58,8 @@
   inline-size: 100%;
   line-height: 1.4;
   margin: 0;
-  min-block-size: 2.25rem;
-  padding: 0.5rem 0.8rem;
+  min-block-size: var(--tbds-form-block-size);
+  padding: var(--tbds-form-padding-inline);
   resize: vertical;
 
   @supports (resize: block) {

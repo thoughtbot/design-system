@@ -1,36 +1,36 @@
 $_tbds-block-stack-border: 1px solid #bbb !default;
 
 .tbds-block-stack {
-  --gap: #{$tbds-space-2};
+  --tbds-block-stack-gap: #{$tbds-space-2};
 }
 
 .tbds-block-stack--gap-1 {
-  --gap: #{$tbds-space-1};
+  --tbds-block-stack-gap: #{$tbds-space-1};
 }
 
 .tbds-block-stack--gap-2 {
-  --gap: #{$tbds-space-2};
+  --tbds-block-stack-gap: #{$tbds-space-2};
 }
 
 .tbds-block-stack--gap-3 {
-  --gap: #{$tbds-space-3};
+  --tbds-block-stack-gap: #{$tbds-space-3};
 }
 
 .tbds-block-stack--gap-4 {
-  --gap: #{$tbds-space-4};
+  --tbds-block-stack-gap: #{$tbds-space-4};
 }
 
 .tbds-block-stack--gap-5 {
-  --gap: #{$tbds-space-5};
+  --tbds-block-stack-gap: #{$tbds-space-5};
 }
 
 .tbds-block-stack--gap-6 {
-  --gap: #{$tbds-space-6};
+  --tbds-block-stack-gap: #{$tbds-space-6};
 }
 
 .tbds-block-stack__item:not(:last-child) {
-  margin-block-end: calc(var(--gap) / 2);
-  padding-block-end: calc(var(--gap) / 2);
+  margin-block-end: calc(var(--tbds-block-stack-gap) / 2);
+  padding-block-end: calc(var(--tbds-block-stack-gap) / 2);
 }
 
 .tbds-block-stack--bordered {

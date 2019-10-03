@@ -1,14 +1,14 @@
 .tbds-icon {
-  --size: 1em;
+  --tbds-icon-size: 1em;
 
-  block-size: var(--size);
+  block-size: var(--tbds-icon-size);
   fill: currentColor;
 }
 
 .tbds-icon--large {
-  --size: 1.25em;
+  --tbds-icon-size: 1.25em;
 }
 
 .tbds-icon--small {
-  --size: 0.75em;
+  --tbds-icon-size: 0.75em;
 }

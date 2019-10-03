@@ -10,9 +10,10 @@ $_tbds-padding-properties: (
 @each $padding-property in $_tbds-padding-properties {
   @each $space-increment, $space-value in $tbds-space-values {
     @include tbds-generate-breakpoint-classes(
+      $selector: "tbds-" + $padding-property + "-" + $space-increment,
       $property: $padding-property,
       $value: $space-value,
-      $variant: $space-increment,
+      $important: true,
     );
   }
 }

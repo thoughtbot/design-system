@@ -10,9 +10,17 @@ $_tbds-margin-properties: (
 @each $margin-property in $_tbds-margin-properties {
   @each $space-increment, $space-value in $tbds-space-values {
     @include tbds-generate-breakpoint-classes(
+      $selector: "tbds-" + $margin-property + "-" + $space-increment,
       $property: $margin-property,
       $value: $space-value,
-      $variant: $space-increment,
+      $important: true,
     );
+  }
+}
+
+@each $margin-property in $_tbds-margin-properties {
+  .tbds-#{$margin-property}-auto {
+    // stylelint-disable-next-line declaration-no-important
+    #{$margin-property}: auto !important;
   }
 }

@@ -5,6 +5,11 @@
   ],
   "rules": {
     "csstools/use-logical": "always",
+    "custom-property-pattern": [
+      "tbds-[a-z]+", {
+        "message": "All CSS custom properties should be prefixed with `tbds-`"
+      }
+    ],
     "scss/at-function-pattern": [
       "tbds-[a-z]+", {
         "message": "All Sass functions should be prefixed with `tbds-`"

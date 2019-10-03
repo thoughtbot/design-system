@@ -1,21 +1,22 @@
-/* stylelint-disable declaration-no-important */
-
 @mixin tbds-generate-breakpoint-classes(
+  $selector,
   $property,
   $value,
-  $variant,
+  $important: null,
 ) {
-  .tbds-#{$property}-#{$variant} {
-    #{$property}: unquote(#{$value}) !important;
+  @if $important {
+    $important: "!important";
+  }
+
+  .#{$selector} {
+    #{$property}: unquote(#{$value})#{$important};
   }
 
   @each $breakpoint, $breakpoint-value in $tbds-breakpoints {
     @media (min-width: $breakpoint-value) {
-      .tbds-#{$property}-#{$variant}\@#{$breakpoint} {
-        #{$property}: unquote(#{$value}) !important;
+      .#{$selector}\@#{$breakpoint} {
+        #{$property}: unquote(#{$value})#{$important};
       }
     }
   }
 }
-
-/* stylelint-enable */

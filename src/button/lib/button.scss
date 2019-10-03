@@ -9,9 +9,13 @@ $_tbds-button-text-color: #{$tbds-color-white} !default;
 $_tbds-button-text-color-hover: #{$tbds-color-white} !default;
 
 .tbds-button {
+  --tbds-button-block-size: #{$tbds-control-block-size};
+  --tbds-button-padding-inline: 1.5rem;
+
   align-items: center;
   appearance: none;
   background-color: $_tbds-button-background-color;
+  block-size: var(--tbds-button-block-size);
   border: $_tbds-button-border;
   border-radius: $_tbds-button-border-radius;
   color: $_tbds-button-text-color;
@@ -23,12 +27,17 @@ $_tbds-button-text-color-hover: #{$tbds-color-white} !default;
   font-weight: $_tbds-button-font-weight;
   justify-content: center;
   line-height: 1;
-  padding: 0.75em 1.5em;
+  padding-inline-end: var(--tbds-button-padding-inline);
+  padding-inline-start: var(--tbds-button-padding-inline);
   text-decoration: none;
   transition: background-color 200ms ease;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+
+  @supports (padding-inline: 0) {
+    padding-inline: var(--tbds-button-padding-inline);
+  }
 
   &:hover {
     background-color: $_tbds-button-background-color-hover;

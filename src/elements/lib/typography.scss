@@ -23,6 +23,7 @@ a {
   &:focus {
     outline: $tbds-focus-outline;
     outline-offset: $tbds-focus-outline-offset;
+    text-decoration: none;
   }
 }
 

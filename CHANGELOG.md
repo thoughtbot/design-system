@@ -5,7 +5,44 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
-[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.3.0...HEAD
+Nothing at the moment.
+
+[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.5.0...HEAD
+
+## [0.5.0] - 2019-09-19
+
+### Added
+
+- Added a Badge component
+- Added a Skip link component
+- Added support for media in inverted color mode
+
+[0.5.0]: https://github.com/thoughtbot/design-system/compare/v0.4.0...v0.5.0
+
+## [0.4.0] - 2019-09-09
+
+### Added
+
+- Added `$tbds-control-block-size` to set controls (text inputs and buttons) to
+  the same block size.
+- Margin utilities now include `auto` (e.g. `tbds-margin-inline-auto`).
+
+### Changed
+
+- When using `tbds-form` elements (e.g. `tbds-form__text-input`), you now must
+  ensure that the parent `<form>` has the `tbds-form` class.
+- The `--border-radius` custom property in the `tbds-avatar` component was
+  renamed to `--tbds-avatar-border-radius`.
+- The `--size` custom property in the `tbds-avatar` component was
+  renamed to `--tbds-avatar-size`.
+- The `--size` custom property in the `tbds-icon` component was
+  renamed to `--tbds-icon-size`.
+- The `--gap` custom property in the `tbds-block-stack` component was
+  renamed to `--tbds-block-stack-gap`.
+- The `--gap` custom property in the `tbds-inline-stack` component was
+  renamed to `--tbds-inline-stack-gap`.
+
+[0.4.0]: https://github.com/thoughtbot/design-system/compare/v0.3.0...v0.4.0
 
 ## [0.3.0] - 2019-06-19
 
