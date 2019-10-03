@@ -33,10 +33,6 @@
     box-shadow: 0 0 0 1px $tbds-brand-blue;
     outline: none;
   }
-
-  &::placeholder {
-    color: #666;
-  }
 }
 
 .tbds-form__textarea {
@@ -60,10 +56,6 @@
     border-color: $tbds-brand-blue;
     box-shadow: 0 0 0 1px $tbds-brand-blue;
     outline: none;
-  }
-
-  &::placeholder {
-    color: #666;
   }
 }
 
