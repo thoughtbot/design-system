@@ -1,12 +1,12 @@
 @import "color-palette";
 
 html {
-  --tbds-color-viewport-background: #{$tbds-color-gray-100};
-  --tbds-color-text-default: #{$tbds-color-brand-gray};
-  --tbds-color-text-secondary: #{$tbds-color-gray-700};
-  --tbds-color-text-link: #{$tbds-color-brand-gray};
-  --tbds-color-text-link-hover: #{$tbds-color-brand-red};
-  --tbds-color-border-default: #{rgba($tbds-color-gray-500, 0.2)};
-  --tbds-color-input-background: #{rgba($tbds-color-gray-500, 0.2)};
-  --tbds-color-focus-outline: #{$tbds-color-brand-blue};
+  --tbds-color-viewport-background: #{$tbds-color-gray-00};
+  --tbds-color-text-default: #{$tbds-color-gray-50};
+  --tbds-color-text-secondary: #{$tbds-color-gray-30};
+  --tbds-color-text-link: #{$tbds-color-digital-blue-30};
+  --tbds-color-text-link-hover: #{$tbds-color-digital-blue-50};
+  --tbds-color-border-default: #{$tbds-color-gray-20};
+  --tbds-color-input-background: #{$tbds-color-white};
+  --tbds-color-focus-outline: #{$tbds-color-digital-blue-10};
 }

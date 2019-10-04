@@ -1,12 +1,12 @@
-$_tbds-button-background-color: $tbds-color-brand-red !default;
+$_tbds-button-background-color: $tbds-color-primary-050 !default;
 $_tbds-button-background-color-hover: darken($_tbds-button-background-color, 10%) !default;
 $_tbds-button-border: 0 !default;
 $_tbds-button-border-radius: 5px !default;
 $_tbds-button-font-family: $tbds-font-sans-serif !default;
 $_tbds-button-font-size: 16px !default;
 $_tbds-button-font-weight: $tbds-font-weight-bold !default;
-$_tbds-button-text-color: #{$tbds-color-white} !default;
-$_tbds-button-text-color-hover: #{$tbds-color-white} !default;
+$_tbds-button-text-color: #{$tbds-color-true-white} !default;
+$_tbds-button-text-color-hover: #{$tbds-color-true-white} !default;
 
 .tbds-button {
   --tbds-button-block-size: #{$tbds-control-block-size};
@@ -45,7 +45,7 @@ $_tbds-button-text-color-hover: #{$tbds-color-white} !default;
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px #{$tbds-color-white}, 0 0 0 4px $tbds-focus-outline-color;
+    box-shadow: 0 0 0 2px #{$tbds-color-true-white}, 0 0 0 4px $tbds-focus-outline-color;
     outline: none;
   }
 
