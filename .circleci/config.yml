@@ -4,6 +4,7 @@ jobs:
   build:
     docker:
       - image: circleci/node:12.16.1
+      - image: circleci/ruby:2.6.5
 
     steps:
       - checkout
@@ -25,3 +26,17 @@ jobs:
       - run:
           name: Compile Sass
           command: npm run compile-sass
+            - tbds-{{ arch }}-{{ checksum "tbds.gemspec" }}
+
+      - run:
+          name: Install gem dependencies
+          command: bundle install --path vendor/bundle
+
+      - save_cache:
+          key: tbds-{{ arch }}-{{ checksum "tbds.gemspec" }}
+          paths:
+            - vendor/bundle
+
+      - run:
+          name: Run the tests
+          command: bundle exec rspec
