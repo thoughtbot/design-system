@@ -96,7 +96,7 @@ Nothing at the moment.
     - `tbds-padding-left-*` is now `tbds-padding-inline-start-*`
     - `tbds-button__icon--text-to-left` is now `tbds-button__icon--end`
     - `tbds-button__icon--text-to-right` is now `tbds-button__icon--start`
-    - `tbds-media--vertical-center` is now `tbds-media tbds-media--block-center`
+    - `tbds-media--vertical-center` is now `tbds-media--block-center`
 
 ### Fixed
 
