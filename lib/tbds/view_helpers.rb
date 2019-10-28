@@ -5,14 +5,13 @@ module Tbds
     def tbds_avatar(
       alt_text:,
       path:,
-      shape:,
-      size:
+      **args
     )
       AvatarPresenter.new(
         alt_text: alt_text,
         path: path,
-        shape: shape,
-        size: size,
+        shape: args[:shape],
+        size: args[:size],
       ).render
     end
   end
