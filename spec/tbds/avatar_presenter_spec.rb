@@ -62,6 +62,48 @@ RSpec.describe AvatarPresenter do
     end
   end
 
+  context "when invalid size modifier is passed" do
+    it "does not append size modifier class" do
+      size = :foobar
+
+      parsed_helper = parse_helper(helper(size: size))
+
+      expect(parsed_helper_classes(parsed_helper)).to eq([base_css_class])
+    end
+  end
+
+  context "when size arg is missing" do
+    it "does not append shape arg" do
+      helper = described_class.new(
+        alt_text: "foo",
+        path: "/foo.jpg",
+        shape: :circle,
+      ).render
+
+      parsed_helper = parse_helper(helper)
+
+      expect(parsed_helper_classes(parsed_helper)).to eq(
+        [base_css_class, "#{base_css_class}--circle"],
+      )
+    end
+  end
+
+  context "when shape arg is missing" do
+    it "does not append shape arg" do
+      helper = described_class.new(
+        alt_text: "foo",
+        path: "/foo.jpg",
+        size: :small,
+      ).render
+
+      parsed_helper = parse_helper(helper)
+
+      expect(parsed_helper_classes(parsed_helper)).to eq(
+        [base_css_class, "#{base_css_class}--small"],
+      )
+    end
+  end
+
   private
 
   def helper(

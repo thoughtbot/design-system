@@ -12,11 +12,11 @@ class AvatarPresenter
 
   BASE_CLASS_NAME = "tbds-avatar".freeze
 
-  def initialize(path:, alt_text:, size:, shape:)
+  def initialize(path:, alt_text:, **args)
     @path = path
     @alt_text = alt_text
-    @size = size
-    @shape = shape
+    @size = args[:size]
+    @shape = args[:shape]
   end
 
   def render
