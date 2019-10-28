@@ -42,6 +42,15 @@ RSpec.describe AvatarPresenter do
     expect(parsed_alt_text(parsed_helper)).to eq(alt_text)
   end
 
+  it "allows user to append custom CSS classes " do
+    custom_css_classes = "foo--bar fizz--buzz"
+
+    parsed_helper = parse_helper(helper(class: custom_css_classes))
+
+    expect(parsed_helper.attributes["class"].value).
+      to include(custom_css_classes)
+  end
+
   context "when invalid size modifier is passed" do
     it "does not append size modifier class" do
       size = :foobar
@@ -109,14 +118,14 @@ RSpec.describe AvatarPresenter do
   def helper(
     alt_text: "foo",
     path: "/foo.jpg",
-    shape: nil,
-    size: nil
+    **args
   )
     described_class.new(
       alt_text: alt_text,
       path: path,
-      shape: shape,
-      size: size,
+      shape: args[:shape],
+      size: args[:size],
+      class: args[:class],
     ).render
   end
 
@@ -135,6 +144,10 @@ RSpec.describe AvatarPresenter do
 
   def parsed_alt_text(parsed_helper)
     helper_attribute_value(parsed_helper, "alt")
+  end
+
+  def parse_custom_css_class(parsed_helper)
+    helper_attribute_value(parsed_helper, "class")
   end
 
   def helper_attribute_value(parsed_helper, attr_name)

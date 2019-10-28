@@ -12,11 +12,12 @@ class AvatarPresenter
 
   BASE_CLASS_NAME = "tbds-avatar".freeze
 
-  def initialize(path:, alt_text:, **args)
+  def initialize(path:, alt_text:, **optional_args)
     @path = path
     @alt_text = alt_text
-    @size = args[:size]
-    @shape = args[:shape]
+    @size = optional_args[:size]
+    @shape = optional_args[:shape]
+    @custom_class = optional_args[:class]
   end
 
   def render
@@ -30,7 +31,7 @@ class AvatarPresenter
   private
 
   def generate_class
-    "#{base_class}#{size_class}#{shape_class}"
+    "#{base_class}#{size_class}#{shape_class} #{custom_class}"
   end
 
   def base_class
@@ -53,5 +54,5 @@ class AvatarPresenter
     end
   end
 
-  attr_reader :alt_text, :path, :shape, :size
+  attr_reader :alt_text, :path, :shape, :size, :custom_class
 end
