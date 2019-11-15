@@ -2,6 +2,10 @@
 
 A handy way to have a header, footer, and flexible body that fills in-between.
 
+[View prototype on CodePen][codepen].
+
+[codepen]: https://codepen.io/thoughtbot/pen/YzzREyL
+
 ## Usage
 
 ### Default
