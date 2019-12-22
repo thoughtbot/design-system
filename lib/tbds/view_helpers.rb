@@ -12,6 +12,7 @@ module Tbds
         path: path,
         shape: args[:shape],
         size: args[:size],
+        class: args[:class],
       ).render
     end
   end

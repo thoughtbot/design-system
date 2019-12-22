@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
     Dimitry Nazarov
   AUTHORS
   s.add_development_dependency("rspec-rails", "~> 3.8")
+  s.add_development_dependency("pry-rails")
   s.description = "thoughtbot design system for thoughtbot websites."
   s.email = "design+tbds@thoughtbot.com"
   s.homepage = "https://thoughtbot.com/"
