@@ -16,6 +16,7 @@ The purpose of the thoughtbot design system is to…
 - [apprentice.thoughtbot.com][apprentice]
 - [Constable][constable]
 - [Hub][hub]
+- [NextUp][nextup]
 - [tbot][tbot]
 - [thoughtbot search][thoughtbot-search]
 - [Vellum][vellum]
@@ -23,6 +24,7 @@ The purpose of the thoughtbot design system is to…
 [apprentice]: https://apprentice.thoughtbot.com/
 [constable]: https://constable.io/
 [hub]: https://hub.thoughtbot.com/
+[nextup]: https://nextup.thoughtbot.com/
 [tbot]: https://tbot.io/
 [thoughtbot-search]: https://search.thoughtbot.com/
 [vellum]: https://vellum.thoughtbot.com/
