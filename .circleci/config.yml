@@ -1,0 +1,26 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.6.5
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - tbds-{{ arch }}-{{ checksum "tbds.gemspec" }}
+
+      - run:
+          name: Install gem dependencies
+          command: bundle install --path vendor/bundle
+
+      - save_cache:
+          key: tbds-{{ arch }}-{{ checksum "tbds.gemspec" }}
+          paths:
+            - vendor/bundle
+
+      - run:
+          name: Run the tests
+          command: bundle exec rspec

@@ -46,7 +46,7 @@ Heroku deployment.
 1. Import the system in your Sass manifest:
 
     ```
-    @import "@thoughtbot/design-system/src/index";
+    @import "@thoughtbot/design-system/src/tbds";
     ```
 
 [yarn]: https://yarnpkg.com/en/

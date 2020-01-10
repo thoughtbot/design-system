@@ -1,3 +1,4 @@
 .DS_store
 *.log
+Gemfile.lock
 node_modules

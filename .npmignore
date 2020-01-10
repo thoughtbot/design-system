@@ -1,6 +1,12 @@
 .gitignore
 .hound.yml
+.rspec
 .stylelintrc.json
 bin/
 CONTRIBUTING.md
+Gemfile
+Gemfile.lock
+lib/
 RELEASING.md
+spec/
+tbds.gemspec
