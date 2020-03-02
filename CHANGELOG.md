@@ -5,9 +5,24 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
-Nothing at the moment.
+### Added
+
+- Added more brand color variables, to match our
+  [Brand Guidelines][brand-guidelines]:
+    - `$tbds-brand-gray-medium`
+    - `$tbds-brand-gray-light`
+    - `$tbds-brand-gray-ultra-light`
+    - `$tbds-brand-purple`
+    - `$tbds-brand-yellow`
+    - `$tbds-brand-yellow-light`
+
+### Changed
+
+- `$tbds-brand-gray` is now `$tbds-brand-gray-dark`.
+- The value of `$tbds-brand-blue` is now `#2e52e4`.
 
 [unreleased]: https://github.com/thoughtbot/design-system/compare/v0.5.0...HEAD
+[brand-guidelines]: https://thoughtbot.com/playbook/our-company/brand/colors
 
 ## [0.5.0] - 2019-09-19
 
