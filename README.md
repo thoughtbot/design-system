@@ -72,6 +72,19 @@ Heroku deployment.
 
 [nodejs-buildpack]: https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs
 
+## Compiled CSS
+
+Each version of tbds (starting with v0.7.0) is available as a minified CSS file
+through the [unpkg CDN][unpkg]. While this method is not recommended for
+production usage, it can be useful for adding tbds as an external stylesheet to
+CodePen’s or static sites to quickly prototype ideas.
+
+```
+https://unpkg.com/@thoughtbot/design-system@0.7.0/dist/tbds.css
+```
+
+[unpkg]: https://unpkg.com/
+
 ## Browser support
 
 tbds supports:
