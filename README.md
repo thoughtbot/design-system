@@ -19,6 +19,7 @@ The purpose of the thoughtbot design system is to…
 - [NextUp][nextup]
 - [tbot][tbot]
 - [thoughtbot search][thoughtbot-search]
+- [thoughtbot.com][thoughtbot.com]
 - [Vellum][vellum]
 
 [apprentice]: https://apprentice.thoughtbot.com/
@@ -27,6 +28,7 @@ The purpose of the thoughtbot design system is to…
 [nextup]: https://nextup.thoughtbot.com/
 [tbot]: https://tbot.io/
 [thoughtbot-search]: https://search.thoughtbot.com/
+[thoughtbot.com]: https://thoughtbot.com/
 [vellum]: https://vellum.thoughtbot.com/
 
 ## Installation for Ruby on Rails
