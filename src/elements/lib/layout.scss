@@ -11,3 +11,8 @@ html {
 img {
   max-inline-size: 100%;
 }
+
+[hidden] {
+  // stylelint-disable-next-line declaration-no-important
+  display: none !important;
+}

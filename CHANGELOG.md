@@ -15,6 +15,9 @@ project adheres to [Semantic Versioning](http://semver.org).
     - `$tbds-brand-purple`
     - `$tbds-brand-yellow`
     - `$tbds-brand-yellow-light`
+- Added `display: none !important;` to the `[hidden]` attribute selector
+  to ensure that elements using the HTML `hidden` attribute are
+  actually hidden.
 
 ### Changed
 
