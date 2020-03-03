@@ -18,6 +18,7 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ### Changed
 
+- Link underlines are now removed on state change (hover & focus).
 - `$tbds-brand-gray` is now `$tbds-brand-gray-dark`.
 - The value of `$tbds-brand-blue` is now `#2e52e4`.
 
