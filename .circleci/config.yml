@@ -1,0 +1,27 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:12.16.1
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-npm-deps-{{ checksum "package-lock.json" }}
+            - v1-npm-deps-
+
+      - run:
+          name: Install npm dependencies
+          command: npm ci
+
+      - save_cache:
+          key: v1-npm-deps-{{ checksum "package-lock.json" }}
+          paths:
+            - ~/usr/local/lib/node_modules
+
+      - run:
+          name: Compile Sass
+          command: npm run compile-sass
