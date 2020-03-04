@@ -81,7 +81,7 @@ tbds supports:
 
 ## License
 
-thoughtbot/design-system is Copyright (c) 2019 thoughtbot, inc.
+thoughtbot/design-system is Copyright (c) 2020 thoughtbot, inc.
 It is free software, and may be redistributed
 under the terms specified in the [LICENSE] file.
 
