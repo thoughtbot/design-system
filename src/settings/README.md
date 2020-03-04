@@ -14,9 +14,27 @@
 | `$tbds-space-5` | 5     | `32px`  |
 | `$tbds-space-6` | 6     | `40px`  |
 
-## Color variables
+## Color palette variables
 
-Coming soon.
+| Variable                       | Value     |
+| ------------------------------ | --------- |
+| `$tbds-brand-red`              | `#e03131` |
+| `$tbds-brand-gray-dark`        | `#29292c` |
+| `$tbds-brand-gray-medium`      | `#3d3e44` |
+| `$tbds-brand-gray-light`       | `#67676e` |
+| `$tbds-brand-gray-ultra-light` | `#f0f0f8` |
+| `$tbds-brand-blue`             | `#2e52e4` |
+| `$tbds-brand-purple`           | `#6931e0` |
+| `$tbds-brand-yellow`           | `#ffc726` |
+| `$tbds-brand-yellow-light`     | `#ffe7a3` |
+
+## Functional color variables
+
+| Variable                      | Value                      |
+| ----------------------------- | -------------------------- |
+| `$tbds-color-text-default`    | `$tbds-brand-gray-dark`    |
+| `$tbds-color-text-link`       | `$tbds-color-text-default` |
+| `$tbds-color-text-link-hover` | `$tbds-brand-red`          |
 
 ## Typography variables
 
