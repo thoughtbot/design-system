@@ -5,13 +5,19 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased (`master`)][unreleased]
 
+Nothing at the moment.
+
+[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.7.0...HEAD
+
+## [0.7.0] - 2020-03-05
+
 ### Added
 
 - A compiled CSS version of tbds is now packaged with each release. You can use
   the [unpkg CDN][unpkg] to load the CSS using a URL like
   `https://unpkg.com/@thoughtbot/design-system@0.7.0/dist/tbds.css`.
 
-[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.6.0...HEAD
+[0.7.0]: https://github.com/thoughtbot/design-system/compare/v0.6.0...v0.7.0
 [unpkg]: https://unpkg.com/
 
 ## [0.6.0] - 2020-03-03
