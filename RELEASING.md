@@ -1,25 +1,28 @@
 # Releasing
 
-This documents how to release a new version of tbds. It's for
+This documents how to release a new version of tbds. It’s for
 thoughtbot employees.
 
-1. Update the version number in `package.json`.
+1. Make sure you’re on the `master` branch with a clean working directory.
 
-1. Update the [changelog][changelog], following the guidelines
-   from [keep a changelog][keep-a-changelog].
+1. Update the [changelog][changelog], following the guidelines from
+   [keep a changelog][keep-a-changelog]
 
-1. Commit changes. Use the convention `vVERSION` in your commit
-   message (e.g. `v1.0.0`).
+1. Run `npm version [major | minor | patch] --force`
 
-1. Tag the release: `git tag vVERSION`
+    This script will…
 
-1. Push changes to GitHub: `git push origin && git push origin --tags`
+    - Add the changes to `CHANGELOG.md` to the Git index
+    - Bump the version in `package.json` and `package-lock.json`
+    - Create a version Git commit and tag
 
-1. Run `npm publish` to publish the new version to npm's registry
-   (if releasing a pre-release, use `npm publish --tag beta`).
+1. Run `npm publish`
 
-1. Draft a [new GitHub release][github-release], copying the release's
-   changelog entry into the release notes.
+    This script will push to GitHub and publish the new version to
+    the npm registry
+
+1. Draft a [new GitHub release][github-release], copying the release’s
+   changelog entry into the release notes
 
 [changelog]: /CHANGELOG.md
 [keep-a-changelog]: http://keepachangelog.com
