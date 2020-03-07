@@ -1,0 +1,29 @@
+$_tbds-grid-columns: (
+  "2",
+  "3",
+  "4",
+) !default;
+
+.tbds-grid {
+  --tbds-grid-gap: #{$tbds-space-4};
+
+  display: grid;
+  grid-auto-flow: dense;
+  grid-gap: var(--tbds-grid-gap);
+}
+
+.tbds-grid--block-center {
+  align-items: center;
+}
+
+.tbds-grid--inline-center {
+  justify-items: center;
+}
+
+@each $column-count in $_tbds-grid-columns {
+  @include tbds-generate-breakpoint-classes(
+    $selector: "grid--" + $column-count + "-columns",
+    $property: "grid-template-columns",
+    $value: repeat(#{$column-count}, 1fr),
+  );
+}
