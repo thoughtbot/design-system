@@ -13,7 +13,6 @@ The purpose of the thoughtbot design system is to…
 
 ## Applications using tbds
 
-- [apprentice.thoughtbot.com][apprentice]
 - [Constable][constable]
 - [Hub][hub]
 - [NextUp][nextup]
@@ -22,7 +21,6 @@ The purpose of the thoughtbot design system is to…
 - [thoughtbot.com][thoughtbot.com]
 - [Vellum][vellum]
 
-[apprentice]: https://apprentice.thoughtbot.com/
 [constable]: https://constable.io/
 [hub]: https://hub.thoughtbot.com/
 [nextup]: https://nextup.thoughtbot.com/
