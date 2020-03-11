@@ -28,6 +28,13 @@
 | `$tbds-brand-yellow`           | `#ffc726` |
 | `$tbds-brand-yellow-light`     | `#ffe7a3` |
 
+### Figma library
+
+The color palette is also available as Figma styles through our
+[Figma library][tbds-figma-library].
+
+[tbds-figma-library]: https://tbot.io/tbds-figma-library
+
 ## Functional color variables
 
 | Variable                      | Value                      |
