@@ -1,0 +1,27 @@
+.tbds-container {
+  --tbds-container-max-inline-size: 75rem;
+
+  inline-size: 100%;
+  // stylelint-disable-next-line csstools/use-logical
+  margin-left: auto;
+  // stylelint-disable-next-line csstools/use-logical
+  margin-right: auto;
+  max-inline-size: var(--tbds-container-max-inline-size);
+  // stylelint-disable-next-line csstools/use-logical
+  padding-left: $tbds-space-3;
+  // stylelint-disable-next-line csstools/use-logical
+  padding-right: $tbds-space-3;
+
+  @supports (margin-inline: 0) {
+    margin-inline: auto;
+    padding-inline: $tbds-space-3;
+  }
+}
+
+// .tbds-container--small {
+//   --tbds-container-max-inline-size: 40rem;
+// }
+
+// .tbds-container--x-small {
+//   --tbds-container-max-inline-size: 25rem;
+// }
