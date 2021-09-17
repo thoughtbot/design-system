@@ -3,6 +3,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@thoughtbot/stylelint-config": "^2.0.0",
+    "npm-run-all": "^4.1.5",
     "sass": "^1.42.1",
     "stylelint": "^13.13.1",
     "stylelint-use-logical-spec": "^3.2.2"
@@ -19,8 +20,11 @@
     "prepublishOnly": "git push && git push --tags",
     "stylelint": "npx stylelint 'src/**/*.scss'",
     "version": "git add CHANGELOG.md",
-    "docs:dev": "eleventy --serve",
-    "docs:build": "eleventy"
+    "docs:build": "npm run docs:sass && eleventy",
+    "docs:dev": "npm-run-all docs:sass --parallel docs:watch:*",
+    "docs:sass": "sass --style=compressed src/index.scss:_site/index.css docs/styles.scss:_site/styles.css",
+    "docs:watch:eleventy": "eleventy --serve",
+    "docs:watch:sass": "npm run docs:sass -- --watch"
   },
   "version": "0.7.2"
 }
