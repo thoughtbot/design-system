@@ -1,5 +1,5 @@
 ---
-title: forms
+title: Forms
 tags: component
 permalink: "components/forms.html"
 layout: layout.html
