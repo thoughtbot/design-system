@@ -1,6 +1,7 @@
 {
   "author": "thoughtbot, inc.",
   "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
     "@thoughtbot/stylelint-config": "^2.0.0",
     "sass": "^1.42.1",
     "stylelint": "^13.13.1",
@@ -17,7 +18,9 @@
     "prepack": "npm run compile-sass",
     "prepublishOnly": "git push && git push --tags",
     "stylelint": "npx stylelint 'src/**/*.scss'",
-    "version": "git add CHANGELOG.md"
+    "version": "git add CHANGELOG.md",
+    "docs:dev": "eleventy --serve",
+    "docs:build": "eleventy"
   },
   "version": "0.7.2"
 }

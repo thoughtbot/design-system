@@ -1,3 +1,9 @@
+---
+title: Media
+tags: component
+permalink: "components/media.html"
+layout: layout.html
+---
 # Media
 
 [View prototype on CodePen][codepen].

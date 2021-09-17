@@ -1,10 +1,16 @@
+---
+title: Utilities
+tags: utilities
+permalink: "utilities.html"
+layout: layout.html
+---
 # Utilities
 
 ## Usage
 
 ### Margin
 
-Margin utilities are based on the global spacing scale and available
+Margin utilities are layout.htmld on the global spacing scale and available
 for each of these margin properties:
 
 - `margin-block-start`
@@ -46,7 +52,7 @@ this context.
 
 ### Padding
 
-Padding utilities are based on the global spacing scale and available
+Padding utilities are layout.htmld on the global spacing scale and available
 for each of these padding properties:
 
 - `padding-block-start`

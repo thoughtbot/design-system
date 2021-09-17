@@ -1,3 +1,9 @@
+---
+title: Avatar
+tags: component
+permalink: "components/avatar.html"
+layout: layout.html
+---
 # Avatar
 
 [View prototype on CodePen][codepen].

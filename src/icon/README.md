@@ -1,3 +1,9 @@
+---
+title: Icon
+tags: component
+permalink: "components/icon.html"
+layout: layout.html
+---
 # Icon
 
 [View prototype on CodePen][codepen].

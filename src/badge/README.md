@@ -1,3 +1,9 @@
+---
+title: Badge
+tags: component
+permalink: "components/badge.html"
+layout: layout.html
+---
 # Badge
 
 Badges contain small amounts of information that help provide additional 

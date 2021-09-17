@@ -2,3 +2,8 @@
 *.log
 dist
 node_modules
+
+# Docs build output
+_site
+# Local Netlify folder
+.netlify

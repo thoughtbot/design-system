@@ -1,3 +1,9 @@
+---
+title: App Frame
+tags: component
+permalink: "components/app-frame.html"
+layout: layout.html
+---
 # App Frame
 
 A handy way to have a header, footer, and flexible body that fills in-between.

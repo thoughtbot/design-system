@@ -1,3 +1,9 @@
+---
+title: Button
+tags: component
+permalink: "components/button.html"
+layout: layout.html
+---
 # Button
 
 [View prototype on CodePen][codepen].

@@ -1,3 +1,9 @@
+---
+title: Skip Link
+tags: component
+permalink: "components/skip-link.html"
+layout: layout.html
+---
 # Skip link
 
 [View prototype on CodePen][codepen].

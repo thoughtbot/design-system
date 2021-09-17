@@ -1,3 +1,9 @@
+---
+title: forms
+tags: component
+permalink: "components/forms.html"
+layout: layout.html
+---
 # Forms
 
 [View prototype on CodePen][codepen].

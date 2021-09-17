@@ -1,3 +1,9 @@
+---
+title: Settings
+tags: settings
+permalink: "configuration/settings.html"
+layout: layout.html
+---
 # Settings
 
 ## Usage

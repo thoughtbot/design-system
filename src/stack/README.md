@@ -1,3 +1,9 @@
+---
+title: Stacks
+tags: component
+permalink: "components/stacks.html"
+layout: layout.html
+---
 # Stacks (block and inline)
 
 Stacks lay out a set of items with even spacing. There are two stack components:
