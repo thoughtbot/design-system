@@ -1,5 +1,5 @@
 const sass = require("sass");
-const fs = require("fs");
+const fs = require("fs").promises;
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./**/*.scss");
