@@ -4,14 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <style>
-      h1{color:red;}
-    </style>
+    {% stylesheet, "src/index.scss" %}
+    {% stylesheet, "docs/styles.scss" %}
   </head>
   <body>
-    {% if page.url != "/" %}
-      <a href="/">Back</a>
-    {% endif %}
-    {{ content | safe }}
+    <a class="tbds-skip-link" href="#content">
+      Skip to main content
+    </a>
+
+    <main id="#content">
+      {% if page.url != "/" %}
+        <a href="/">Back</a>
+      {% endif %}
+
+      {{ content | safe }}
+    </main>
   </body>
 </html>

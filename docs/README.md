@@ -34,3 +34,25 @@ To start a development (auto-reloading) server, run:
   # from the root of this repository
   npm run docs:dev
 ```
+
+## Shortcodes
+
+> A shortcode returns content (a JavaScript string or template literal) that is injected into the template. You can use these however you’d like—you could even think of them as reusable components.
+
+Read more about 11ty shortcodes in the [documentation](https://www.11ty.dev/docs/shortcodes/).
+
+### stylesheet
+
+The `stylesheet` shortcode converts a SCSS file to CSS.
+
+Usage:
+
+```nunjucks
+{% stylesheet, "src/styles.scss" %}
+```
+
+The above will output the file `_site/styles.css`, and output the following into the HTML:
+
+```html
+<link rel="stylesheet" type="text/css" href="/styles.css">
+```
