@@ -3,7 +3,7 @@
 This documents how to release a new version of tbds. It’s for
 thoughtbot employees.
 
-1. Make sure you’re on the `master` branch with a clean working directory.
+1. Make sure you’re on the `main` branch with a clean working directory.
 
 1. Update the [changelog][changelog], following the guidelines from
    [keep a changelog][keep-a-changelog]
