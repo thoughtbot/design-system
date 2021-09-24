@@ -10,7 +10,7 @@
     bin/setup
     ```
 
-1. Create a new branch from `master`
+1. Create a new branch from `main`
 
     ```
     git checkout -b my-branch-name
