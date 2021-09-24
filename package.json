@@ -1,10 +1,10 @@
 {
   "author": "thoughtbot, inc.",
   "devDependencies": {
-    "@thoughtbot/stylelint-config": "1.1.0",
-    "sass": "^1.26.3",
-    "stylelint": "10.1.0",
-    "stylelint-use-logical": "1.1.0"
+    "@thoughtbot/stylelint-config": "^2.0.0",
+    "sass": "^1.42.1",
+    "stylelint": "^13.13.1",
+    "stylelint-use-logical-spec": "^3.2.2"
   },
   "license": "MIT",
   "name": "@thoughtbot/design-system",

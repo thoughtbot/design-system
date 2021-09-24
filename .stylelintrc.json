@@ -1,10 +1,10 @@
 {
   "extends": "@thoughtbot/stylelint-config",
   "plugins": [
-    "stylelint-use-logical"
+    "stylelint-use-logical-spec"
   ],
   "rules": {
-    "csstools/use-logical": "always",
+    "liberty/use-logical-spec": "always",
     "custom-property-pattern": [
       "tbds-[a-z]+", {
         "message": "All CSS custom properties should be prefixed with `tbds-`"
