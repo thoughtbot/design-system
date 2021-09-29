@@ -7,7 +7,17 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 Nothing at the moment.
 
-[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.7.0...HEAD
+[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.7.1...HEAD
+
+## [0.7.1] - 2021-09-29
+
+### Changed
+
+- Update documentation to include links to the Figma library
+- Upgrade the project dependencies
+- Update project default branch to 'main'
+
+[0.7.1]: https://github.com/thoughtbot/design-system/compare/v0.7.0...v0.7.1
 
 ## [0.7.0] - 2020-03-05
 

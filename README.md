@@ -78,7 +78,7 @@ production usage, it can be useful for adding tbds as an external stylesheet to
 CodePen’s or static sites to quickly prototype ideas.
 
 ```
-https://unpkg.com/@thoughtbot/design-system@0.7.0/dist/tbds.css
+https://unpkg.com/@thoughtbot/design-system@0.7.1/dist/tbds.css
 ```
 
 [unpkg]: https://unpkg.com/
