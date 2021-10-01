@@ -13,20 +13,16 @@ The purpose of the thoughtbot design system is to…
 
 ## Applications using tbds
 
-- [Constable][constable]
 - [Hub][hub]
-- [NextUp][nextup]
-- [tbot][tbot]
-- [thoughtbot search][thoughtbot-search]
 - [thoughtbot.com][thoughtbot.com]
+- [thoughtbot search][thoughtbot-search]
+- [tbot][tbot]
 - [Vellum][vellum]
 
-[constable]: https://constable.io/
 [hub]: https://hub.thoughtbot.com/
-[nextup]: https://nextup.thoughtbot.com/
-[tbot]: https://tbot.io/
-[thoughtbot-search]: https://search.thoughtbot.com/
 [thoughtbot.com]: https://thoughtbot.com/
+[thoughtbot-search]: https://search.thoughtbot.com/
+[tbot]: https://tbot.io/
 [vellum]: https://vellum.thoughtbot.com/
 
 ## Installation for Ruby on Rails
