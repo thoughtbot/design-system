@@ -7,7 +7,18 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 Nothing at the moment.
 
-[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.7.1...HEAD
+[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.7.2...HEAD
+
+## [0.7.2] - 2021-10-21
+
+### Changed
+
+- Add thoughtbot logos
+- Update documentation to include instructions for aliasing the package and
+  using assets in Rails asset pipeline
+- Add .tool-versions for asdf users
+
+[0.7.2]: https://github.com/thoughtbot/design-system/compare/v0.7.1...v0.7.2
 
 ## [0.7.1] - 2021-09-29
 
