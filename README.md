@@ -33,7 +33,7 @@ Heroku deployment.
 1. Make sure you have the [Yarn][yarn] package manager installed:
    https://yarnpkg.com/en/docs/install
 
-1. Install the tbds package and save it as a dependency:
+1. Install the design system package and save it as a dependency:
 
     ```
     yarn add @thoughtbot/design-system
@@ -46,6 +46,35 @@ Heroku deployment.
     ```
 
 [yarn]: https://yarnpkg.com/en/
+
+Alternatively, you can assign an alias to the package for more terse usage:
+
+1. Install the design system package with an alias
+
+    ```
+    yarn add tbds@npm:@thoughtbot/design-system
+    ```
+
+1. Import the system using the alias
+
+    ```
+    @import "tbds/src/index";
+    ```
+
+To import assets using the Rails asset pipeline:
+
+1. Add `node_modules` to the asset path.
+
+    ```ruby
+    # assets.rb
+    Rails.application.config.assets.paths << Rails.root.join('node_modules')
+    ```
+
+1. Use the assets in `*.rb` and `*.erb`.
+
+    ```erb
+    image_tag "@thoughtbot/design-system/src/logo/horizontal.svg", title: "thoughtbot"
+    ```
 
 ### Deploy Ruby on Rails app with tbds to Heroku
 
