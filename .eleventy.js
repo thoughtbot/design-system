@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-  // Reload borwser when CSS changes
+  // Reload browser when CSS changes
   eleventyConfig.addWatchTarget("_site/*.css");
   eleventyConfig.setBrowserSyncConfig({
     files: ["_site/*.css"],
