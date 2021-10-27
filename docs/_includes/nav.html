@@ -1,24 +1,28 @@
-<h2>Components</h2>
-<ul>
-  {% for component in collections.component %}
-  <li>
-    <a href="{{ component.url }}">{{ component.data.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
-<h2>Utilities</h2>
-<ul>
-  {% for page in collections.utilities %}
-  <li>
-    <a href="{{ page.url }}">{{ page.data.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
-<h2>Settings</h2>
-<ul>
-  {% for page in collections.settings %}
-  <li>
-    <a href="{{ page.url }}">{{ page.data.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+<nav>
+  <h1> <a href="/" class="site-title">tbds</a> </h1>
+  <h2 class="nav-subheading">Components</h2>
+  <ul>
+    {% for node in collections.component %}
+    <li>
+      <a href="{{ node.url }}" class="nav-link {{ 'active' if node.url in page.url }}">{{ node.data.title }}</a>
+    </li>
+    {% endfor %}
+    <br>
+  </ul>
+  <h2 class="nav-subheading">Utilities</h2>
+  <ul>
+    {% for node in collections.utilities %}
+    <li>
+      <a href="{{ node.url }}" class="nav-link {{ 'active' if node.url in page.url }}">{{ node.data.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <h2 class="nav-subheading">Settings</h2>
+  <ul>
+    {% for node in collections.settings %}
+    <li>
+      <a href="{{ node.url }}" class="nav-link {{ 'active' if node.url in page.url }}">{{ node.data.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

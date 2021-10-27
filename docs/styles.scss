@@ -1,7 +1,70 @@
-body {
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import "../src/settings/index.scss";
+
+$_light-red: #FDEEEE;
+
+main {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 12rem 1fr;
+  margin: auto;
+  max-width: 72rem;
+  min-width: 48rem;
 }
 
-h1 {
-  color: red;
+body {
+  color: $tbds-brand-gray-medium;
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+.site-title {
+  color: $tbds-brand-red;
+  font-size: 2rem;
+  margin: $tbds-space-3;
+  text-decoration: none;
+}
+
+.nav-subheading {
+  font-size: 14px;
+  font-weight: $tbds-font-weight-bold;
+  margin: 0 0 0 $tbds-space-3;
+  text-transform: uppercase;
+
+  &:not(:nth-of-type(1)) {
+    margin-top: 2rem;
+  }
+}
+
+.nav-link {
+  align-items: center;
+  border-radius: 6px;
+  color: $tbds-brand-gray-light;
+  display: flex;
+  height: 2em;
+  padding: 0 $tbds-space-3;
+  text-decoration: none;
+
+  &:hover {
+    color: $tbds-brand-gray-dark;
+    background-color: $tbds-brand-gray-ultra-light;
+  }
+
+  &.active {
+    background-color: $_light-red;
+    color: $tbds-brand-red;
+  }
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  list-style: none;
+  margin: $tbds-space-2 0 0;
+  padding: 0;
 }
