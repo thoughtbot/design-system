@@ -2,12 +2,12 @@ $tbds-base-space-value: 8px !default;
 
 $tbds-space-values: (
   "0": 0,
-  "1": $tbds-base-space-value / 2,
+  "1": calc($tbds-base-space-value / 2),
   "2": $tbds-base-space-value,
-  "3": $tbds-base-space-value * 2,
-  "4": $tbds-base-space-value * 3,
-  "5": $tbds-base-space-value * 4,
-  "6": $tbds-base-space-value * 5,
+  "3": calc($tbds-base-space-value * 2),
+  "4": calc($tbds-base-space-value * 3),
+  "5": calc($tbds-base-space-value * 4),
+  "6": calc($tbds-base-space-value * 5),
 ) !default;
 
 $tbds-space-0: map-get($tbds-space-values, "0") !default;
