@@ -1,5 +1,14 @@
 #!/usr/bin/env sh
 
+# Exit if any subcommand fails
 set -e
 
-npm install
+if [ -z "$CI" ]; then
+  if command -v asdf > /dev/null; then
+    asdf plugin add nodejs || true
+    asdf plugin update --all || true
+    asdf install
+  fi
+
+  npm install
+fi
