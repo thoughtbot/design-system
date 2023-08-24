@@ -1,3 +1,12 @@
+// Ref: https://github.com/sass-collective/sass-collective/blob/master/packages/strip-unit/_functions.scss
+@use "sass:math";
+@use "sass:meta";
+
 @function tbds-strip-unit($value) {
-  @return (calc($value / ($value * 0 + 1)));
+  @if meta.type-of($value) != "number" {
+    @error "Invalid `#{meta.type-of($value)}` type. Choose a number type instead.";
+  } @else if meta.type-of($value) == "number" and not math.is-unitless($value) {
+    @return math.div($value, ($value * 0 + 1));
+  }
+  @return $value;
 }
