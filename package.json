@@ -4,6 +4,7 @@
     "@thoughtbot/stylelint-config": "^2.0.0",
     "sass": "^1.66.1",
     "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^34.0.0",
     "stylelint-use-logical-spec": "^3.2.2"
   },
   "license": "MIT",
