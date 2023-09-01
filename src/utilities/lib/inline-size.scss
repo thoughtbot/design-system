@@ -12,7 +12,7 @@ $tbds-inline-size-lengths: (
 ) !default;
 
 @each $length in $tbds-inline-size-lengths {
-  $rounded-unitless-length: round(tbds-strip-unit($length));
+  $rounded-unitless-length: round(strip-unit.strip($length));
   $percent-sign: \0025;
 
   @include tbds-generate-breakpoint-classes(
