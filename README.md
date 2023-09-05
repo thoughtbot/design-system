@@ -18,12 +18,14 @@ The purpose of the thoughtbot design system is to…
 - [thoughtbot search][thoughtbot-search]
 - [tbot][tbot]
 - [Vellum][vellum]
+- [design.thoughtbot.com][design.thoughtbot.com]
 
 [hub]: https://hub.thoughtbot.com/
 [thoughtbot.com]: https://thoughtbot.com/
 [thoughtbot-search]: https://search.thoughtbot.com/
 [tbot]: https://tbot.io/
 [vellum]: https://vellum.thoughtbot.com/
+[design.thoughtbot.com]: https://design.thoughtbot.com/
 
 ## Installation for Ruby on Rails
 
