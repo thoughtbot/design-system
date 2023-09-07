@@ -115,6 +115,12 @@ tbds supports:
 - Latest versions of Chrome, Firefox, and Safari
 - Edge 15+
 
+## Contributing
+
+To learn about contributing to the project, please have a look at the [contributing] guide.
+
+[contributing]: /CONTRIBUTING.md
+
 ## License
 
 thoughtbot/design-system is Copyright (c) 2020 thoughtbot, inc.
