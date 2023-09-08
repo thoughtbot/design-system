@@ -2,7 +2,7 @@
   "author": "thoughtbot, inc.",
   "devDependencies": {
     "@sass-collective/strip-unit": "^3.1.2",
-    "@thoughtbot/stylelint-config": "^2.0.0",
+    "@thoughtbot/stylelint-config": "^3.0.1",
     "sass": "^1.66.1",
     "stylelint": "^15.10.3",
     "stylelint-use-logical-spec": "^5.0.0"
