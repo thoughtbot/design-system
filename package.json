@@ -19,8 +19,8 @@
     "stylelint": "npx stylelint 'src/**/*.scss'",
     "version": "git add CHANGELOG.md"
   },
-  "version": "0.7.3",
   "dependencies": {
     "@sass-collective/strip-unit": "^3.1.2"
-  }
+  },
+  "version": "0.7.3"
 }

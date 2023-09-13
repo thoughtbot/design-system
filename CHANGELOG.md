@@ -7,7 +7,19 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 Nothing at the moment.
 
-[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.7.2...HEAD
+[unreleased]: https://github.com/thoughtbot/design-system/compare/v0.7.3...HEAD
+
+## [0.7.3] - 2023-09-20
+
+### Changed
+
+- Fix calculations
+- Add [`sass-collective/strip-unit`](https://github.com/sass-collective/sass-collective/tree/master/packages/strip-unit) as a dependency
+- Link to the CONTRIBUTING guide from the README
+- Update the thoughtbot logo link in the README
+- Update dependencies
+
+[0.7.3]: https://github.com/thoughtbot/design-system/compare/v0.7.2...v0.7.3
 
 ## [0.7.2] - 2021-10-21
 
@@ -47,12 +59,12 @@ Nothing at the moment.
 
 - Added more brand color variables, to match our
   [Brand Guidelines][brand-guidelines]:
-    - `$tbds-brand-gray-medium`
-    - `$tbds-brand-gray-light`
-    - `$tbds-brand-gray-ultra-light`
-    - `$tbds-brand-purple`
-    - `$tbds-brand-yellow`
-    - `$tbds-brand-yellow-light`
+  - `$tbds-brand-gray-medium`
+  - `$tbds-brand-gray-light`
+  - `$tbds-brand-gray-ultra-light`
+  - `$tbds-brand-purple`
+  - `$tbds-brand-yellow`
+  - `$tbds-brand-yellow-light`
 - Added `display: none !important;` to the `[hidden]` attribute selector
   to ensure that elements using the HTML `hidden` attribute are
   actually hidden.
@@ -112,26 +124,26 @@ Nothing at the moment.
 - Added `inline-size` (`width`) utility classes (e.g. `tbds-inline-size-25%`)
   for the following lengths:
 
-    - `20%`
-    - `25%`
-    - `33.3333%`
-    - `40%`
-    - `50%`
-    - `60%`
-    - `66.6666%`
-    - `75%`
-    - `80%`
-    - `100%`
+  - `20%`
+  - `25%`
+  - `33.3333%`
+  - `40%`
+  - `50%`
+  - `60%`
+  - `66.6666%`
+  - `75%`
+  - `80%`
+  - `100%`
 
-    Breakpoint-based variants are also available
-    (e.g. `tbds-inline-size-25%@medium`).
+  Breakpoint-based variants are also available
+  (e.g. `tbds-inline-size-25%@medium`).
 
 - Added utility classes for margin and padding block & inline shorthands:
 
-    - `tbds-margin-block-*`
-    - `tbds-margin-inline-*`
-    - `tbds-padding-block-*`
-    - `tbds-padding-inline-*`
+  - `tbds-margin-block-*`
+  - `tbds-margin-inline-*`
+  - `tbds-padding-block-*`
+  - `tbds-padding-inline-*`
 
 ### Changed
 
@@ -141,19 +153,19 @@ Nothing at the moment.
   dimensions, for example `width` is now `inline-size` and `height` is now
   `block-size`. The following classes were updated to match the new syntax:
 
-    - `tbds-text-align-left` is now `tbds-text-align-start`
-    - `tbds-text-align-right` is now `tbds-text-align-end`
-    - `tbds-margin-top-*` is now `tbds-margin-block-start-*`
-    - `tbds-margin-right-*` is now `tbds-margin-inline-end-*`
-    - `tbds-margin-bottom-*` is now `tbds-margin-block-end-*`
-    - `tbds-margin-left-*` is now `tbds-margin-inline-start-*`
-    - `tbds-padding-top-*` is now `tbds-padding-block-start-*`
-    - `tbds-padding-right-*` is now `tbds-padding-inline-end-*`
-    - `tbds-padding-bottom-*` is now `tbds-padding-block-end-*`
-    - `tbds-padding-left-*` is now `tbds-padding-inline-start-*`
-    - `tbds-button__icon--text-to-left` is now `tbds-button__icon--end`
-    - `tbds-button__icon--text-to-right` is now `tbds-button__icon--start`
-    - `tbds-media--vertical-center` is now `tbds-media--block-center`
+  - `tbds-text-align-left` is now `tbds-text-align-start`
+  - `tbds-text-align-right` is now `tbds-text-align-end`
+  - `tbds-margin-top-*` is now `tbds-margin-block-start-*`
+  - `tbds-margin-right-*` is now `tbds-margin-inline-end-*`
+  - `tbds-margin-bottom-*` is now `tbds-margin-block-end-*`
+  - `tbds-margin-left-*` is now `tbds-margin-inline-start-*`
+  - `tbds-padding-top-*` is now `tbds-padding-block-start-*`
+  - `tbds-padding-right-*` is now `tbds-padding-inline-end-*`
+  - `tbds-padding-bottom-*` is now `tbds-padding-block-end-*`
+  - `tbds-padding-left-*` is now `tbds-padding-inline-start-*`
+  - `tbds-button__icon--text-to-left` is now `tbds-button__icon--end`
+  - `tbds-button__icon--text-to-right` is now `tbds-button__icon--start`
+  - `tbds-media--vertical-center` is now `tbds-media--block-center`
 
 ### Fixed
 
