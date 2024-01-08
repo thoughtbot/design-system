@@ -2,7 +2,7 @@
   "author": "thoughtbot, inc.",
   "devDependencies": {
     "@thoughtbot/stylelint-config": "^3.0.1",
-    "sass": "^1.69.6",
+    "sass": "^1.69.7",
     "stylelint": "^15.11.0",
     "stylelint-use-logical-spec": "^5.0.1"
   },
