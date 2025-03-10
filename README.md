@@ -16,8 +16,6 @@ The purpose of the thoughtbot design system is to…
 - [Hub][hub]
 - [thoughtbot.com][thoughtbot.com]
 - [thoughtbot search][thoughtbot-search]
-- [tbot][tbot]
-- [Vellum][vellum]
 - [design.thoughtbot.com][design.thoughtbot.com]
 
 [hub]: https://hub.thoughtbot.com/
@@ -37,15 +35,15 @@ Heroku deployment.
 
 1. Install the design system package and save it as a dependency:
 
-    ```
-    yarn add @thoughtbot/design-system
-    ```
+   ```
+   yarn add @thoughtbot/design-system
+   ```
 
 1. Import the system in your Sass manifest:
 
-    ```
-    @import "@thoughtbot/design-system/src/index";
-    ```
+   ```
+   @import "@thoughtbot/design-system/src/index";
+   ```
 
 [yarn]: https://yarnpkg.com/en/
 
@@ -53,47 +51,47 @@ Alternatively, you can assign an alias to the package for more terse usage:
 
 1. Install the design system package with an alias
 
-    ```
-    yarn add tbds@npm:@thoughtbot/design-system
-    ```
+   ```
+   yarn add tbds@npm:@thoughtbot/design-system
+   ```
 
 1. Import the system using the alias
 
-    ```
-    @import "tbds/src/index";
-    ```
+   ```
+   @import "tbds/src/index";
+   ```
 
 To import assets using the Rails asset pipeline:
 
 1. Add `node_modules` to the asset path.
 
-    ```ruby
-    # assets.rb
-    Rails.application.config.assets.paths << Rails.root.join('node_modules')
-    ```
+   ```ruby
+   # assets.rb
+   Rails.application.config.assets.paths << Rails.root.join('node_modules')
+   ```
 
 1. Use the assets in `*.rb` and `*.erb`.
 
-    ```erb
-    image_tag "@thoughtbot/design-system/src/logo/horizontal.svg", title: "thoughtbot"
-    ```
+   ```erb
+   image_tag "@thoughtbot/design-system/src/logo/horizontal.svg", title: "thoughtbot"
+   ```
 
 ### Deploy Ruby on Rails app with tbds to Heroku
 
 1. Add `webpacker` to your `Gemfile` and install:
 
-    ```
-    gem "webpacker", require: false
-    ```
+   ```
+   gem "webpacker", require: false
+   ```
 
-    ```
-    bundle install
-    ```
+   ```
+   bundle install
+   ```
 
 1. Add the [Node.js Buildpack][nodejs-buildpack] to your Heroku app.
 
-    Note: You'll need to order the buildpacks to have Node.js first, followed
-    by Ruby.
+   Note: You'll need to order the buildpacks to have Node.js first, followed
+   by Ruby.
 
 [nodejs-buildpack]: https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-nodejs
 
@@ -132,6 +130,7 @@ under the terms specified in the [LICENSE] file.
 [LICENSE]: /LICENSE.md
 
 <!-- START /templates/footer.md -->
+
 ## About thoughtbot
 
 ![thoughtbot](https://thoughtbot.com/thoughtbot-logo-for-readmes.svg)
@@ -145,6 +144,5 @@ We are [available for hire][hire].
 
 [community]: https://thoughtbot.com/community?utm_source=github
 [hire]: https://thoughtbot.com/hire-us?utm_source=github
-
 
 <!-- END /templates/footer.md -->
