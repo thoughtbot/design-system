@@ -1,7 +1,7 @@
 {
   "author": "thoughtbot, inc.",
   "devDependencies": {
-    "@thoughtbot/stylelint-config": "^4.0.0",
+    "@thoughtbot/stylelint-config": "^5.0.0",
 
     "stylelint-use-logical-spec": "^5.0.1"
   },
